@@ -1,0 +1,105 @@
+page-hesabim {
+    .ana-baslik{
+      background-color: initial;
+    }
+    h2 {
+      margin-top: 1rem;
+    }
+   .hesabım-title{
+    margin-left: -25%;
+    margin-top: 1%;
+    font-size: x-large;
+    color: red;
+  }
+    .background-image {
+      background: url('../assets/img/hesabım.jpg') no-repeat ;
+      background-size: cover;
+      height: 100%;
+    }
+    .üyeolbuton{
+      width: 102%;
+      height: 18%;
+      margin-left:0%;
+      background-color: burlywood;
+      border-radius: 7%;
+      //transform-box: 2px;
+      font-size: 20px;
+      margin-top: 90%;
+      font-weight: lighter;
+      color:white;
+  
+    }
+  
+    .girisyapbuton{
+      width: 102%;
+      height: 100%;
+      margin-left:0%;
+      background-color:white;
+      border-radius: 7%;
+      //transform-box: 2px;
+      font-size: 20px;
+      margin-top: 12%;
+      font-weight: lighter;
+      //background:transparent;
+      color:gray;
+    }
+    .icon{
+      color: white;
+    }
+    .aktivasyon-text{
+      margin-left: 10%;
+      margin-top: 5%;
+      font-size: x-large;
+      font-weight: bold;
+      color:white;
+    }
+  .yazı{
+    margin-left: 10%;
+   margin-top: 2%;
+    color: white;
+    font-size: medium;
+  }
+  
+.bg-img{
+  background-color: black;
+
+}
+.yazı1{
+  margin-top: -45%;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: -45%;
+}
+.yazı2{
+  color: burlywood;
+  margin-left: -25%;
+  font-size: medium;
+
+}
+.img{
+  width: 50%;
+  height: 50%;
+  margin-top: 10%;
+  border-radius: 5%;
+}
+.yazı3{
+  margin-top: -45%;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+
+}
+.yazı4{
+  font-size: medium;
+  color: gray;
+  margin-top: 5%;
+}
+.yildiz{
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+.hesap{
+  margin-top: 15%;
+}
+}

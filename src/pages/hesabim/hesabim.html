@@ -1,0 +1,114 @@
+<ion-header>
+  <ion-navbar class="ana-baslik" hideBackButton="true">
+    <button ion-button menuToggle>
+      <ion-icon class="icon" name="menu-sharp" item-left></ion-icon>      </button>
+    <ion-title class="hesabım-title">{{"HESABIM" | translate}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="background-image" no-scroll padding>
+  <div *ngIf="!isLoggedin()">
+  
+  <ion-list  >
+  <p class="aktivasyon-text">{{ "Hesabınızı Görüntüleyin" | translate}}</p>
+
+    <p class="yazı">{{ "Starbucks Card hesabınızı oluşturarak ya da mevcut hesabınızı tanımlayarak;tüm hesap detaylarınıza erişin." | translate}}</p>
+
+
+
+  <ion-row>
+    <ion-col col-12>
+        <button class="üyeolbuton" type="submit" (click)="Uyeol()">{{"ÜYE OL" | translate}}
+        </button>
+    </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col col-12>
+      <button class="girisyapbuton" type="submit" (click)="Girisyap()">{{"GİRİŞ YAP" | translate}}
+      </button>
+  </ion-col>
+</ion-row>
+</ion-list>
+
+
+
+  
+</div>
+</ion-content>
+<ion-content *ngIf="isLoggedin()" class="bg-img" no-scroll padding>
+<ion-grid>
+  <ion-row (click)="cart()">
+    <ion-col >
+      <div>
+        <img  class="img"src="../assets/img/logo.jpg">
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <p>
+          <a class="yazı1">{{"MOBİL ÖDEME YAP" | translate}}
+          </a>
+          <a class="yazı2">{{"Starbucks Card Ekle" | translate}}
+          </a>
+        </p>     
+       </div>
+    </ion-col>
+  </ion-row>
+  <ion-row class="yildiz" (click)="yildizlar()">
+    <ion-col>
+      <div>
+       
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <p>
+          <a class="yazı3">{{"YILDIZLAR" | translate}}
+          </a>
+          <a class="yazı4">{{"Starbucks Card ile Yıldız Kazanmaya Başla" | translate}}
+          </a>
+        </p>    
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row class="yildiz"  >
+    <ion-col (click)="mesajlar()">
+      <a class="yazı3">{{"MESAJLAR" | translate}}
+      </a>
+    </ion-col>
+    <ion-col>
+      <a class="yazı4">{{"Güncel Mesaj Bulunmamaktadır" | translate}}
+      </a>
+    </ion-col>
+  </ion-row>
+        
+
+  <ion-row class="hesap"> 
+    <ion-col>
+      <div>
+        
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <p>
+          <a class="yazı3">{{"HESAP GEÇMİŞİ" | translate}}
+          </a>
+          
+        </p>    
+      </div>
+    </ion-col>
+  </ion-row>
+
+</ion-grid>
+
+
+
+
+</ion-content>
+
+
+
+
+
