@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar class="ana-baslik">
+      <ion-icon (click)="geri()" class="icon" name="arrow-back-sharp" item-left></ion-icon>
+      <ion-title>{{'ÜRÜNLER' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+  
+  
+  <ion-content>
+    <h2 text-center class="baslik">{{"İÇECEKLER" | translate}}</h2>
+      <ion-list *ngFor="let icecekler of Icecekler">
+          <ion-item class="liste" (click)="navigate(icecekler.$key)">   
+              <p class="liste">{{icecekler.title}}</p>
+              <ion-icon class="icon" name="chevron-forward" item-right></ion-icon>
+          </ion-item>
+      </ion-list>
+
+    <h2 text-center class="baslik">{{"YİYECEKLER" | translate}}</h2>
+      <ion-list *ngFor="let yiyecekler of Yiyecekler" >
+          <ion-item class="liste" (click)="navigate(yiyecekler.$key)">   
+              <p class="liste">{{yiyecekler.title}}</p>
+              <ion-icon class="icon" name="chevron-forward" item-right></ion-icon>
+          </ion-item>
+      </ion-list>
+
+  <h2 text-center class="baslik">{{"ÇEKİRDEK KAHVELER" | translate}}</h2>
+      <ion-list  *ngFor="let kahveler of Kahveler">
+          <ion-item class="liste" (click)="navigate(yiyecekler.$key)">   
+              <p class="liste">{{kahveler.title}}</p>
+              <ion-icon class="icon" name="chevron-forward" item-right></ion-icon>
+          </ion-item>
+      </ion-list>
+  </ion-content>
