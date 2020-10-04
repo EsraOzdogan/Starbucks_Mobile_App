@@ -1,0 +1,59 @@
+page-starbuckscartolustur {
+  
+    h2 {
+      margin-top: 1rem;
+    }
+    .nav{
+      background-color: #CCD1D1;
+    }
+   .hesabım-title{
+    margin-left: -25%;
+    font-size: x-large;
+    margin-top: 1%;
+  }
+    .background-image {
+      background: url('../assets/img/cartolustur.jpg') no-repeat ;
+      background-size: cover;
+      height: 100%;
+    }
+    .geribtn{
+      width: 105%;
+      height: 135%;
+      margin-left:0%;
+      background-color: initial;
+      border-radius: 7%;
+      //transform-box: 2px;
+      font-size: 20px;
+      margin-top: 5%;
+      font-weight: lighter;
+      color:gray;
+      border: 2px solid gray;
+      //background:transparent;
+  
+    }
+  
+    /*.üyeolbuton :hover{
+      //background-color: brown;
+    }*/
+    .devametbtn{
+        
+      width: 95%;
+      height: 135%;
+      margin-left:7%;
+      margin-top: 5%;
+      background-color:burlywood;
+      border-radius: 7%;
+      //transform-box: 2px;
+      font-size: 20px;
+      font-weight: lighter;
+      //background:transparent;
+      color:white;
+    }
+  .yazı{
+    margin-left: 10%;
+   margin-top: 135%;
+    color: white;
+    font-size: medium;
+  }
+  
+}
