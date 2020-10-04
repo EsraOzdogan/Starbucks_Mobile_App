@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-navbar hideBackButton="true">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title class="title" text-center>{{"TEŞEKKÜRLER" | translate}}
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="page-content">
+    <ion-row>
+        <ion-col col-12>
+            <div class="thanks">
+                <h2>{{" TEŞEKKÜR EDERİZ !" | translate}}</h2>
+                
+            </div>
+        </ion-col>
+    </ion-row>
+    <button ion-button outline class="continue-btn" (click)="home()">Daha Fazla Ürün Al</button>
+</ion-content>
