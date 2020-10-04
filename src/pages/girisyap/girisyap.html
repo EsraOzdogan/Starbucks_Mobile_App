@@ -1,0 +1,87 @@
+<ion-header >
+    <ion-navbar hideBackButton="true">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{'GİRİŞ YAP' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="giris">
+    <form [formGroup]="valForm" (submit)="OnLogin($event, valForm.value)">
+        <ion-row >
+            <ion-col col-12>
+                <ion-item>
+                    <ion-input id="exampleInputEmail1" type="email" name="email" placeholder="Enter email"
+                        autocomplete="off" formControlName="email" required></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <ion-row >
+            <ion-col col-12>
+                <ion-item>
+                    <ion-input id="exampleInputPassword1" type="password" name="password" placeholder="Password"
+                        formControlName="password" required=""></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col col-12 (click)="parolamiunuttum()">
+                <p text-center>{{"Parolamı  Unuttum ?" | translate}}</p>
+            </ion-col>
+        </ion-row>
+        <!--button-->
+        <ion-row>
+            
+            <button class="vazgecbuton" (click)="vazgec()"  ion-button>{{"Vazgeç" | translate}}
+            </button>
+            <button class="girisyapbuton" type="submit" [disabled]="!valForm.valid" ion-button>{{"GİRİŞ YAP" | translate}}
+            </button>
+        
+   
+        
+    </ion-row>
+    </form>
+
+    <!--inputs-->
+    <!--email-->
+    <!-- <form [formGroup]="valForm" (submit)="OnLogin($event, valForm.value)">
+       <ion-row>
+            <ion-col col-12>
+                <ion-item>
+                    
+                    <ion-input class="form-kontrol" id="exampleInputEmail1" type="email" name="email" placeholder="Enter email"
+                        autocomplete="off" formControlName="email" required=""></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+    
+        <ion-row class="form-kontrol">
+            <ion-col col-12>
+                <ion-item>   
+                    <ion-input id="exampleInputPassword1" type="password" name="password" placeholder="Parola"
+                         required=""></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col col-12 (click)="onClickForgotPassword()">
+                <p text-center>{{"Parolamı Unuttum ?" | translate}}</p>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            
+                <button class="vazgecbuton" (click)="vazgec()"  ion-button>{{"Vazgeç" | translate}}
+                </button>
+                <button class="girisyapbuton" type="submit" [disabled]="!valForm.valid" ion-button>{{"GİRİŞ YAP" | translate}}
+                </button>
+            
+       
+            
+        </ion-row>
+    </form>-->
+
+
+</ion-content>

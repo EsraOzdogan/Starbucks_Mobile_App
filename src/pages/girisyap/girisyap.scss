@@ -1,0 +1,42 @@
+page-girisyap {
+  .item {
+    width: 99%;
+    height: 70%;
+    display: block;
+    margin-top:10%;
+    border-radius: 2px;
+    background-color: white;
+    text-decoration-line: underline;
+  }
+  .item.item-block .item-inner {
+    border-bottom: 0px;
+  }
+  .item-input .label {
+    color: $white;
+  }
+.form-kontrol{
+  margin-top:-9.1%;
+}
+
+  .giris {
+    background: url("../assets/img/girisyapbg.jpg") no-repeat;
+    background-size: cover;
+    color: $white;
+  }
+  .vazgecbuton{
+    width: 50%;
+    height: 65px;
+    background-color: darkgray;
+    color:gray;
+  }
+  .girisyapbuton{
+    width: 50%;
+    height: 65px;
+    background-color: burlywood;
+    color: white;
+    display: block;
+    margin-left: 50%;
+    margin-top: -18.5%;
+
+  }
+}
