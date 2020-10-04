@@ -1,0 +1,67 @@
+<ion-header >
+    <ion-navbar class="baslik">
+        <ion-icon (click)="geri()" class="icon" name="arrow-back-sharp" item-left></ion-icon>
+        <ion-title>{{'KİŞİSEL BİLGİLER' | translate }}</ion-title>
+        <button class="btn" ion-button type="submit" [disabled]="!f.valid">{{"Kaydet" | translate}}</button>
+
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="bg">
+
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <ion-list>
+            <ion-item *ngIf="user.notification == true">
+                <ion-label primary>{{"Notifications" | translate}}</ion-label>
+                <ion-toggle primary checked="true" name="name" id="name" [(ngModel)]="user.notification"></ion-toggle>
+
+            </ion-item>
+            <ion-item *ngIf="user.notification == false">
+                <ion-label primary>{{"Notifications" | translate}}</ion-label>
+                <ion-toggle primary checked="false" name="name" id="name" [(ngModel)]="user.notification"></ion-toggle>
+
+            </ion-item>
+            <!--card no-->
+            <ion-item>
+                <ion-input type="text" name="name" id="name" placeholder="{{'Ad' | translate}}" [(ngModel)]="user.name" required></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-input type="email" name="email" id="email" placeholder="{{'email' | translate}}" [(ngModel)]="user.email" required></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-input type="text" name="mobileNo" id="mobileNo" placeholder="Telefon Numarası" [(ngModel)]="user.mobileNo" required></ion-input>
+            </ion-item>
+            <!--       
+                <ion-item>
+                    <ion-label>Card Number:</ion-label>
+                    <ion-input type="text" name="card" id="card" placeholder="5172628928"
+                               [(ngModel)]="user.card"></ion-input>
+                  </ion-item> -->
+            <!--name on card-->
+            <!--       <ion-item>
+                    <ion-label>Name on card:</ion-label>
+                    <ion-input type="text" name="cardName" id="cardName" placeholder="Your card Name"
+                               [(ngModel)]="user.cardName"></ion-input>
+                  </ion-item> -->
+            <!--cvv-->
+            <!--       <ion-item>
+                    <ion-label>Cvv:</ion-label>
+                    <ion-input type="number" name="cvv" id="cvv" placeholder="234"
+                               [(ngModel)]="user.cvv"></ion-input>
+                  </ion-item> -->
+            <!--date-->
+            <!--       <ion-item>
+                    <ion-label>Date of expiry:</ion-label>
+                    <ion-input type="number" name="date" id="date" placeholder="25/06/2020"
+                               [(ngModel)]="user.date"></ion-input>
+                  </ion-item> -->
+        </ion-list>
+        <!--button-->
+        <button class="btn1" ion-button type="submit" [disabled]="!f.valid">{{"E-posta Adresini Değiştir" | translate}}</button>
+    </form>
+
+
+</ion-content>
+
+
+    
