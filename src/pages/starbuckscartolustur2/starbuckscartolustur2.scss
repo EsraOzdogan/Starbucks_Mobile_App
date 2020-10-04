@@ -1,0 +1,128 @@
+page-starbuckscartolustur2{
+    .anabaslık{
+
+        color: black;
+        padding-left: 5%;
+        padding-right: -5%;
+    }
+    .item {
+      width: 109%;
+      height: 70%;
+      display: block;
+      margin-left: -5%;
+      border-radius: 2px;
+      background-color: white;
+    }
+    .item.item-block .item-inner {
+      border-bottom: 0;
+    }
+    .item-input .label {
+      color: $white;
+    }
+    .kayit-form {
+      background-color:#D5DBDB;
+    }
+    .aktivasyon-text{
+      color:darkgray;
+    }
+    .form-kontrol{
+      margin-top:-2.5%;
+    }
+
+    .social-icon {
+      width: 86px;
+      padding: 0px 20px;
+    }
+    .scroll{
+      height: 100%;
+      width: 115%;
+      margin-left: -5%;
+    }
+    .yazı{
+      color:gray;
+      margin-right: 10%;
+    }
+    .yesil{
+      color: green;
+    }
+    .checkbox{
+      max-width: 100%;
+      height: 5.5em;
+      width: 5.5em;
+      border: 3px solid $white;
+      border-radius: 50%;
+      margin-top: 24px;
+      margin-left: -50%;
+    }
+    .kaydet{
+      color: gray;
+      margin-left: 68%;
+      background-color: initial;
+      color: saddlebrown;
+    }
+    .icon{
+      color: black;
+    }
+
+.üst{
+    margin-top: -1%;
+}
+    .önödeme{
+        background-color: white;
+        color: black;
+        margin-top: -5%;
+      width: 105%;
+      margin-left: -4%;
+      height: 25%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-left: 1%;
+      padding-right: 0.4%;
+    }
+    .a{
+        
+    padding-top: 2%;
+    padding-bottom: 10%;
+    }
+    .icon2{
+        color: black;
+        margin-right: 25%;
+    }
+    .order {
+        margin-left: -12%;
+        width: 117%;
+        padding: 0 25px 0px 25px;
+        .form {
+          font-size: 16px;
+          color: #d4dcd4;
+          font-weight: 600;
+          margin-left: -8px;
+
+
+        }
+        .select-box {
+          border: 1px solid #748074;
+          padding: 0 10px 0 10px;
+          border-radius: 4px;
+          margin-bottom: 2rem;
+          .data-holder {
+            padding: 8px 25px 8px 25px;
+
+            padding-left: 8%;
+            color: #dae0da;
+            background-color: white;;
+            .item-inner {
+              border-bottom: 0 !important;
+            }
+            ion-label {
+              color: black;
+              line-height: 28px;
+            }
+            .select-text {
+              color: white;
+            }
+          }
+        }
+      }
+  }
+  
