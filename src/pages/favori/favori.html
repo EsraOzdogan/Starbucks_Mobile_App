@@ -1,0 +1,31 @@
+<ion-header >
+    <ion-navbar class="baslik">
+        <ion-icon (click)="geri()" class="icon" name="arrow-back-sharp" item-left></ion-icon>
+        <ion-title >{{'FAVORİ ÜRÜNLERİM' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="bg" [ngClass]="{bg:!isFavourite()}">
+    <div class="ürünyok" *ngIf="!isFavourite()">
+        <ion-icon  class="circle" name="alert-circle-outline"></ion-icon>
+      <div class="uyarı">
+        <h6 class="yazı">Herhangi bir favori ürün belirlemediniz</h6>
+
+      </div>
+    </div>
+
+    <div *ngIf="isFavourite()">
+        <ion-card *ngFor="let favouriteItem of favouriteItems">
+            <ion-list>
+                <ion-item (click)="detaygit(favouriteItem.$key)">
+                    <ion-thumbnail item-left>
+                        <img src={{favouriteItem.thumb}}>
+                    </ion-thumbnail>
+                    <p class="heading">{{favouriteItem.title}}</p>
+                    <p>{{favouriteItem.description}}</p>
+                   
+                </ion-item>
+            </ion-list>
+        </ion-card>
+    </div>
+</ion-content>
