@@ -1,0 +1,39 @@
+page-kullanimkosullari{
+    .baslik{
+      color: black;
+      background-color: #D5DBDB;
+    }
+      .giris {
+        background-color: white;
+        background-size: cover;
+        color: $white;
+      }
+      
+      .aktivasyon-text{
+        margin-top: 45px;
+        font-size: large;
+        font-weight: bold;
+        color:black;
+      }
+    .yazı{
+      color: black;
+    }
+    .text{
+        margin-top: 15px;
+        font-size: x-large;
+        font-weight: bold;
+        color:black;
+    }
+    .soru{
+      color: black;
+      font-weight: bold;
+    }
+    .scroll{
+    height: 100%;
+    width: 100%;
+  }
+  .icon{
+      color: gray;
+  }
+}
+    
