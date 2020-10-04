@@ -124,7 +124,7 @@ export class AdresListePage {
     this.orderDetails.appliedLoyaltyPoints = this.checked;
     this.orderDetails.orderView = false;
     if (this.orderDetails.shippingAddress) {
-      this.navCtrl.push("KontrolPage", {
+      this.navCtrl.push("OdemePage", {
         orderDetails: this.orderDetails
       });
     }  else {
