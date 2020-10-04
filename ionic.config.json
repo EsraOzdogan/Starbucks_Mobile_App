@@ -1,0 +1,10 @@
+{
+  "name": "st",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
