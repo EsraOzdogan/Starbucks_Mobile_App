@@ -1,0 +1,103 @@
+<ion-menu persistent="true" class="menu" [content]="content" *ngIf="this.platform.dir()==='ltr'" side="left">
+  <ion-content class="sidebar-menu">
+    <ion-row class="img-name-row">
+      <ion-col>
+        <img class="user-img" src="{{imageUrl}}">
+        <button *ngIf="!isLoggedin()" menuClose class="ayarlar" ion-item (click)="ayarlar()">
+          {{'AYARLAR'| translate}}
+        </button>
+        <button *ngIf="!isLoggedin()" menuClose class="kayıtgiris" ion-item (click)="ayarlar()">
+          {{'Kayıt Ol & Giriş Yap'| translate}}
+        </button>
+        <button menuClose class="ayarlar" ion-item (click)="ayarlar()">
+            <ion-col *ngIf="isLoggedin()">
+              <p class="user-name">{{name | uppercase}}</p>
+            </ion-col>  
+         </button>
+        <button *ngIf="isLoggedin()" menuClose class="kayıtgiris" ion-item (click)="ayarlar()">
+          {{'Hesap & Ayarlar'| translate}}
+        </button>
+      </ion-col>
+    </ion-row>
+  
+
+
+    <button menuClose class="menu-item" ion-item (click)="hesabim()">
+      {{'HESABIM' | translate}}
+    </button>
+    <button menuClose class="menu-item" ion-item (click)="card()">
+      {{'STARBUCKS CARD' | translate}}
+    </button>
+    <button menuClose class="menu-item" ion-item (click)="yildizlar()">
+      {{'YILDIZLAR'| translate}}
+    </button>
+
+    <button menuClose class="menu-item" ion-item (click)="magazalar()">
+      {{'MAĞAZALAR'| translate}}
+    </button>
+   
+
+    <button menuClose class="menu-item" ion-item (click)="mesajlar()">
+      {{'MESAJLAR'| translate}}
+    </button>
+   
+    <button menuClose class="menu-item" ion-item (click)="urunler()">
+      {{'ÜRÜNLER'| translate}}
+    </button>
+   
+ 
+    <button *ngIf="!isLoggedin()" menuClose class="menu-item" ion-item (click)="giris()">
+      {{'Giriş Yap'| translate}}
+    </button>
+    <button *ngIf="isLoggedin()" ion-item (click)="cikis()" menuClose class="menu-item">
+      {{'Çıkış Yap'| translate}}
+    </button>
+  </ion-content>
+</ion-menu>
+<!--
+<ion-menu persistent="true" class="menu" [content]="content" *ngIf="this.platform.dir()==='rtl'" side="right">
+  <ion-content class="sidebar-menu">
+    <ion-row class="img-name-row">
+      <ion-col>
+        <img class="user-img" src="{{imageUrl}}">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col *ngIf="isLoggedin()">
+        <p class="user-name">{{name}}</p>
+      </ion-col>
+    </ion-row>
+
+
+    <button menuClose class="menu-item" ion-item (click)="hesabim()">
+      {{'Hesabım' | translate}}
+    </button>
+  
+    <button menuClose class="menu-item" ion-item (click)="card()">
+      {{'STARBUCKS CARD'| translate}}
+    </button>
+  
+    <button menuClose class="menu-item" ion-item (click)="yildizlar()">
+      {{'YILDIZLAR'| translate}}
+    </button> 
+    <button menuClose class="menu-item" ion-item (click)="mesajlar()">
+      {{'MESAJLAR'| translate}}
+    </button>
+    <button menuClose class="menu-item" ion-item (click)="magazalar()">
+      {{'MAĞAZALAR'| translate}}
+    </button>
+ 
+    <button menuClose class="menu-item" ion-item (click)="urunler()">
+      {{'ÜRÜNLER'| translate}}
+    </button>
+    <button *ngIf="!isLoggedin()" menuClose class="menu-item" ion-item (click)="giris()">
+      {{'Giriş Yap'| translate}}
+    </button>
+    <button *ngIf="isLoggedin()" ion-item (click)="cikis()" menuClose class="menu-item">
+      {{'Çıkış Yap'| translate}}
+    </button>
+  </ion-content>
+</ion-menu>-->
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
