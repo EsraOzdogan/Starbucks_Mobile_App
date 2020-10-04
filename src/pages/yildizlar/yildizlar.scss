@@ -1,0 +1,77 @@
+page-yildizlar {
+  
+    h2 {
+      margin-top: 1rem;
+    }
+    .nav{
+      background-color: #CCD1D1;
+    }
+   .hesabım-title{
+    margin-left: -25%;
+    font-size: x-large;
+    margin-top: 1%;
+  }
+    .background-image {
+      background: url('../assets/img/yıldızlar.jpg') no-repeat ;
+      background-size: cover;
+      height: 100%;
+    }
+    .üyeolbuton{
+      width: 102%;
+      height: 18%;
+      margin-left:0%;
+      background-color: burlywood;
+      border-radius: 7%;
+      //transform-box: 2px;
+      font-size: 20px;
+      margin-top: 100%;
+      font-weight: lighter;
+      color:white;
+      //background:transparent;
+  
+    }
+  
+    /*.üyeolbuton :hover{
+      //background-color: brown;
+    }*/
+    .girisyapbuton{
+      width: 102%;
+      height: 89%;
+      margin-left:0%;
+      background-color:white;
+      border-radius: 7%;
+      //transform-box: 2px;
+      font-size: 20px;
+      margin-top: 14%;
+      font-weight: lighter;
+      //background:transparent;
+      color:gray;
+    }
+    .icon{
+      color: white;
+    }
+    .aktivasyon-text{
+      margin-left: 10%;
+      margin-top: 5%;
+      font-size: x-large;
+      font-weight: bold;
+      color:white;
+    }
+  .yazı{
+    margin-left: 10%;
+   margin-top: 2%;
+    color: white;
+    font-size: medium;
+  }
+  
+
+  .bg-img{
+    background-color: white;
+  }
+  .icon{
+    color: black;
+  }
+  .yazı1{
+    color: black;
+  }
+}

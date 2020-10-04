@@ -1,0 +1,52 @@
+<ion-header>
+    <ion-navbar class="ana-baslik" hideBackButton="true">
+      <button ion-button menuToggle>
+        <ion-icon class="icon" name="menu-sharp" item-left></ion-icon>      </button>
+      <ion-title class="hesabım-title">{{"YILDIZLAR" | translate}}
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content  class="background-image" no-scroll padding>
+    <ion-list *ngIf="!isLoggedin()">
+    <p class="aktivasyon-text">{{ "Yıldızlarınızı Takip Edin" | translate}}</p>
+  
+      <p class="yazı">{{ "Yıldızlarınızla ikram içecek ve size özel diğer fırsatları kaçırmayın." | translate}}</p>
+  
+  
+  
+    <ion-row>
+      <ion-col col-12>
+          <button class="üyeolbuton" type="submit" (click)="Uyeol()">{{"ÜYE OL" | translate}}
+          </button>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col col-12>
+        <button class="girisyapbuton" type="submit" (click)="Girisyap()">{{"GİRİŞ YAP" | translate}}
+        </button>
+    </ion-col>
+  </ion-row>
+  </ion-list>
+</ion-content>
+
+
+<ion-content *ngIf="isLoggedin()" class="bg-img" no-scroll padding>
+
+  <ion-list>
+    <ion-row>
+
+        <ion-icon class="icon" name="pint-sharp"></ion-icon>
+        <p class="yazı1">{{ "Kazanılan ikramlar" | translate}}</p>
+  </ion-row>
+
+  </ion-list>
+</ion-content>
+  
+  
+  
+  
+  
+  
+  
+  
