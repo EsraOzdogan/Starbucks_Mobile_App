@@ -1,0 +1,97 @@
+<ion-header class="he">
+    <ion-navbar hideBackButton="true">
+        <ion-icon class="icon" name="arrow-back-sharp" item-left></ion-icon>
+        <ion-title class="anabaslık">{{'ÜYE OL' | translate }}</ion-title>
+        <button class="girisyapbuton" type="submit" [disabled]="!registration.valid" ion-button>{{"Oluştur" | translate}}
+        </button>
+    </ion-navbar>
+</ion-header>
+
+    
+   <ion-content class="kayit-form" no-scroll padding>
+    <ion-scroll scrollY="true" class="scroll">
+         <form [formGroup]="registration" (ngSubmit)="onSubmit()">
+            <ion-row>
+                <ion-col col-12>
+                    <ion-item>
+                        <ion-input type="text" name="name"  placeholder="Ad" formControlName="name"  required=""></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row class="form-kontrol">
+                <ion-col col-12>
+                    <ion-item>
+                        <ion-input type="text"  placeholder="Soyad" required=""></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+
+            
+            <ion-row>
+                <ion-col col-12>
+                    <ion-item>
+                        <ion-input type="email" name="email" formControlName="email" placeholder="E-posta Adresi" required=""></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            
+            <p class="aktivasyon-text">{{"Aktivasyon kodunuz E-posta adresinize gönderilecektir" | translate}}</p>
+        
+            <ion-row>
+                <ion-col col-12>
+                    <ion-item>
+                        <ion-input type="password" name="password" id="password" formControlName="password" placeholder="Parola"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row><ion-row>
+                <ion-col col-12>
+                    <ion-item>
+                        <ion-input type="password"  formControlName="password" placeholder="Parola(tekrar)"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+
+
+            <p class="aktivasyon-text">{{"Parolanız en az 8 karakterden oluşmalı,en az bir büyük harf,bir küçük harf,ve bir rakam içermelidir." | translate}}</p>
+
+            <ion-row>
+                    <ion-item>
+                        <ion-label>{{"E-posta almak istiyorum." | translate}}</ion-label>
+                        <ion-toggle color="secondary"></ion-toggle>
+                    </ion-item>
+                    
+                    <ion-item>
+                    <ion-label>{{"SMS almak istiyorum."| translate}}</ion-label>
+                    <ion-toggle color="secondary"></ion-toggle>
+                    </ion-item>
+                    <ion-item>
+                        <ion-checkbox color="dark" class="checkbox"> </ion-checkbox>
+                        
+
+               
+                    </ion-item>
+                    <p class="yazı">
+                        <a class="yesil">{{"Kullanıcı Koşulları"| translate}}</a>
+                         {{"ve" | translate}} 
+                         <a class="yesil">{{"Kişisel Verileri Koruma Kanunu Açık Rıza Formu"| translate}}</a>
+                         {{"nu okudum,onaylıyorum." | translate}}
+                    </p>
+                    
+                
+            </ion-row>
+            <ion-row>
+                <ion-col col-12>
+                    <button class="girisyapbuton" type="submit" [disabled]="!registration.valid" ion-button>{{"Oluştur" | translate}}
+                    </button>
+                </ion-col>
+            </ion-row>
+        </form> 
+        <ion-row>
+            <ion-col col-12>
+                <a (click)="navLogin()">
+                    <p text-center>{{"Kayıt Başarıılı !" | translate}}</p>
+                </a>
+            </ion-col>
+        </ion-row>
+    </ion-scroll>
+   </ion-content>
