@@ -1,0 +1,33 @@
+<ion-header >
+    <ion-navbar class="title" hideBackButton="true">
+        <ion-title class="baslik">{{'PAROLAMI UNUTTUM' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="giris">
+    <form [formGroup]="valForm" (submit)="OnLogin($event, valForm.value)">
+        <p>{{"Starbucks hesabınızı oluştururken kullandığınız E-posta adresinizi giriiniz." | translate}}</p>
+
+        <ion-row >
+            <ion-col col-12>
+                <ion-item>
+                    <ion-input  type="email" name="email" placeholder="E-Posta Adresi"
+                        autocomplete="off" formControlName="email" required></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            
+            <button class="vazgecbuton" (click)="vazgec()"  ion-button>{{"VAZGEÇ" | translate}}
+            </button>
+            <button class="girisyapbuton" type="submit" [disabled]="!valForm.valid" ion-button>{{"GÖNDER" | translate}}
+            </button>
+        
+   
+        
+    </ion-row>
+    </form>
+
+ 
+
+</ion-content>
