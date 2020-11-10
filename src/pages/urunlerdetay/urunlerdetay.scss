@@ -1,0 +1,203 @@
+page-urunlerdetay {
+  ion-card img {
+    height: 290px;
+  }
+  .ana-baslik{
+    background-color: #B2BABB;
+  }
+  .hesabım-title{
+    margin-left: -40%;
+    margin-top: -5%;
+    color: #707B7C;
+}
+.icon{
+  color: #515A5A;
+}
+  .card {
+    margin: 0px;
+    width: 100%;
+  }
+  .news-head {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+  }
+  .news-time {
+    padding: 0 17px;
+    font-size: 10px;
+    color: $grey;
+  }
+  .slider {
+      img {
+        width: 100% !important;
+        height: 192px !important;
+      }
+    }
+    .ana-baslik{
+      background-color: initial;
+    }
+    .icon{
+      color: #777;
+    }
+    .text-over-image {
+      color: $white;
+      font-size: 18px;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.6);
+      position: relative;
+      width: 100%;
+      margin: -55px 0px 0px 0px;
+    }
+  
+    .productImage {
+      max-height: 235px;
+    }
+    .prod-price {
+      font-weight: 700;
+      color: $primary;
+    }
+    .item.item-block .item-inner {
+      padding-right: 5px;
+      border-bottom: 0px;
+    }
+    .count {
+      padding: 10px 0px;
+      margin: 0px;
+      .item-count {
+        padding: 11.5px 20px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        background-color: #777;
+      }
+      .show-count {
+        background-color: burlywood !important;
+      }
+    }
+    .label {
+      margin: 0px 0px 0px 0;
+    }
+    .btn-add-to-cart {
+      background-color: burlywood !important;
+      color: $white;
+      padding: 22.2px;
+      box-shadow: none;
+      font-size: 14px;
+      margin: 0px;
+    }
+    .extra-list {
+      margin: 0px 4px 16px 4px;
+      border-bottom: 1px solid #dedede;
+      border-left: 1px solid #dedede;
+      border-right: 1px solid #dedede;
+      .header {
+        color: $white;
+        background-color: $grey;
+        margin: 0;
+      }
+  
+      .toggle .toggle-checked {
+        background-color: #32cd32;
+        width: 45px;
+        height: 26px;
+      }
+      .toggle .toggle-icon {
+        width: 45px;
+        height: 26px;
+      }
+      .toggle .toggle-inner {
+        position: absolute;
+        top: 1px;
+        left: 3px;
+        width: 22px;
+        height: 22px;
+        background-color: $white;
+      }
+    }
+  
+    .size-list {
+      @extend .extra-list;
+      .size-list-header {
+        @extend .header;
+      }
+      .size-list-item {
+        .cut {
+          text-decoration: line-through;
+          color: $grey;
+        }
+        .offer-p {
+          color: $primary;
+          font-size: 18px;
+          font-weight: 700;
+        }
+        .checkbox .checkbox-checked {
+          background-color: transparent !important;
+          border: none !important;
+        }
+        .checkbox .checkbox-icon {
+          border: none !important;
+        }
+  
+        .checkbox .checkbox-checked .checkbox-inner {
+          width: 10px !important;
+          height: 20px !important;
+          border-color: #32cd32 !important;
+          border-width: 4px !important;
+          border-top-width: 0 !important;
+          border-left-width: 0 !important;
+          border-style: solid !important;
+        }
+      }
+    }
+    .checkbox-checked + .size-list-item {
+      background-color: $secondary !important;
+      color: red;
+    }
+    .fav {
+      color: $danger;
+      font-size: 40px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    .heart-clicked {
+      color: $primary;
+    }
+    .share {
+      color: black;
+      font-size: 40px;
+      position: absolute;
+      left:15%;
+      margin-top: 45%;
+    }
+    img {
+      width: 100% !important;
+      height: 50%;
+    }
+    .text{
+      color: black;
+      font-size: medium;
+      margin-top: 2%;
+     border-top: gray solid 1px;
+    }
+  
+  .item-detail{
+    font-size: medium;
+    margin-top: 55%;
+  }
+  .item-detail2{
+    font-size: medium;
+    margin-top: -4%;
+  }
+    .slider-text {
+      color: #fff;
+      font-size: 22px;
+      position: absolute;
+      margin-top: 35%;
+      background-color: rgba(119, 119, 119, 0.6);
+      width: 100%;
+  
+  
+    }
+}

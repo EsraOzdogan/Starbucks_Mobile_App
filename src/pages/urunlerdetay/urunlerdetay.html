@@ -1,0 +1,108 @@
+<ion-header>
+    <ion-navbar class="ana-baslik" hideBackButton="true">
+        <ion-icon (click)="geri()" class="icon" name="arrow-back-sharp" item-left></ion-icon>
+        <ion-title class="hesabım-title">{{"ÜRÜN DETAYLARI" | translate}}
+        </ion-title>   
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="item-page">
+
+    <ion-row class="productImage">
+        <img src={{sliderDetails.thumb}} alt="{{sliderDetails.title}} ">
+
+
+    </ion-row>
+    <span clear text-center *ngIf="isLiked">
+        <ion-icon name="heart" class="fav" (click)="favoricikar(menuItems.$key)"></ion-icon>
+    </span>
+    <span clear text-center *ngIf="!isLiked">
+        <ion-icon name="heart" class="fav heart-clicked" (click)="favoriekle(menuItems.$key)"></ion-icon>
+    </span>
+                <ion-row class="catagory">
+                  
+                    <ion-col col-12>
+                        <p class="slider-text" >{{sliderDetails.title}}</p>
+                    </ion-col>
+
+                
+
+
+
+                    <ion-col col-12>
+                        <p  class="item-detail" text-wrap>
+                            <span class="span">{{sliderDetails.description}}</span>
+                        </p>
+                    </ion-col>
+                    <p class="text" >{{"Alerjenler" | translate}}</p>
+
+                    <ion-col col-12>
+                        <p class="item-detail2">
+                            Mağazamız içerisinde yiyecek ürünlerimizin hazırlanmasında ortak ekipman kullanılması nedeniyle; hiçbir ürünümüzde herhangi bir alerjen (süt ürünleri, soya, yumurta, kuruyemiş, buğday vb.) bulunmadığı garanti edilmemektedir.
+                        </p>
+                    </ion-col>
+                       
+                        
+                   
+                </ion-row>
+
+
+
+                <ion-row>
+                    <ion-col col-6>
+                        <div class="count">
+                            <span class="item-count" (click)="adetcikar()">
+                                -
+                            </span>
+                            <span class="item-count show-count">
+                                {{count}}
+                            </span>
+                            <span class="item-count" (click)="adetekle()">
+                                +
+                            </span>
+                        </div>
+                    </ion-col>
+            
+                    <ion-col col-6>
+                        <a (click)="kartaekle()" ion-button icon-left full class="btn-add-to-cart">
+                            <ion-icon name="cart"></ion-icon>
+                            &nbsp; {{"KARTA EKLE" | translate}}
+                        </a>
+                    </ion-col>
+                </ion-row>
+                <ion-list radio-group class="size-list">
+                    <ion-list-header class="size-list-header" text-center>
+                        {{"Boyut ve Fiyat" | translate}}
+                    </ion-list-header>
+                    <ion-item *ngFor="let item of sliderDetails.price; let i= index" class="size-list-item">
+                        <ion-label *ngIf="item.specialPrice"> {{item.pname}}
+                            <span class="cut">{{item.value}}{{currency?.currencySymbol}}</span>
+                            <span class="offer-p">{{item.specialPrice |number:0}}{{currency?.currencySymbol}}</span>
+                        </ion-label>
+                        <ion-label *ngIf="!item.specialPrice"> {{item.pname}} {{item.value}}{{currency?.currencySymbol}}</ion-label>
+                        <ion-radio class="checked" (ionSelect)="sizeOptions(item)"></ion-radio>
+                    </ion-item>
+                </ion-list>
+                <ion-list class="extra-list" *ngIf="sliderDetails.extraOptions != null">
+                    <ion-list-header class="header" text-center>{{"Ekstra Seçenek Ekle" | translate }}</ion-list-header>
+                    <ion-item *ngFor="let option of sliderDetails.extraOptions; let i= index" class="list-item">
+                        <ion-label>{{option.name}} {{option.value}})({{currency?.currencySymbol}}</ion-label>
+                        <ion-toggle (ionChange)="checkOptions(option)"></ion-toggle>
+                    </ion-item>
+                </ion-list>
+            
+                <ion-row class="button-fixed">
+                    <ion-col col-6>
+                        <a (click)="kartaekle()" ion-button icon-left full class="btn-add-to-cart">
+                            &nbsp; {{"KONTROL ET" | translate}}
+                        </a>
+                    </ion-col>
+                    <ion-col col-6>
+                        <a (click)="urunler()" ion-button icon-left full class="btn-add-to-cart">
+                            &nbsp; {{"ALIŞVERİŞE DEVAM ET" | translate}}
+                        </a>
+                    </ion-col>
+                </ion-row>
+            
+</ion-content>
+
