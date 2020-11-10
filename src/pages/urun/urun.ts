@@ -101,7 +101,7 @@ export class UrunPage {
   }
 
   navigate(item) {
-    this.navCtrl.push("ProductDetailsPage", { id: item });
+    this.navCtrl.push("UrunDetayPage", { id: item });
   }
 
   navcart() {
