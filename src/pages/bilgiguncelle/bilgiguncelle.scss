@@ -1,98 +1,97 @@
 page-bilgiguncelle{
-    .img {
-      display: block;
-      margin: 6px auto;
-      height: 120px;
-      width: 120px;
-      border-radius: 50%;
-      border: 3px solid;
-    }
-    .name {
-      text-align: center;
-      font-size: 2.5rem;
-      margin-top: -23px;
-    }
-    .email {
-      @extend .name;
-      font-size: 14px;
-      padding: 1em 0px;
-      margin: 1em 0px;
-    }
-    .upload {
-      position: relative;
-      top: -34px;
-      font-size: 2em !important;
-    }
-    .item {
-      border-bottom: 1px solid $light-grey;
-      height: 4em;
-    }
-    .item.item-block .item-inner {
-      border-bottom: 0px;
-    }
-    .label {
-      color: $primary !important;
-    }
-    .login {
-      background: url("../assets/img/bg.jpg") no-repeat center;
-      background-size: cover;
-      color: $white;
-      .logo {
-        width: 86px;
-        display: block;
-        margin: 0 auto;
-        margin-top: 4em;
-        padding-bottom: 2em;
-      }
-    }
-    .social-icon {
+  .img {
+    display: block;
+    margin: 6px auto;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid;
+  }
+  .name {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: -23px;
+  }
+  .email {
+    @extend .name;
+    font-size: 14px;
+    padding: 1em 0px;
+    margin: 1em 0px;
+  }
+  .upload {
+    position: relative;
+    top: -34px;
+    font-size: 2em !important;
+  }
+  .item {
+    border-bottom: 1px solid $light-grey;
+    height: 4em;
+  }
+  .item.item-block .item-inner {
+    border-bottom: 0px;
+  }
+  .label {
+    color: $primary !important;
+  }
+  .login {
+    background: url("../assets/img/bg.jpg") no-repeat center;
+    background-size: cover;
+    color: $white;
+    .logo {
       width: 86px;
-      padding: 0px 20px;
-    }
-    .inputfile {
-      width: 0.1px;
-      height: 0.1px;
-      opacity: 0;
-      overflow: hidden;
-      position: absolute;
-      z-index: -1;
-    }
-    .inputfile + label {
-      font-size: 2.7em;
-      font-weight: 700;
-      color: white;
-      background-color: transparent;
-      display: inline-block;
       display: block;
-      margin: auto;
-      width: 20%;
-      text-align: center;
+      margin: 0 auto;
+      margin-top: 4em;
+      padding-bottom: 2em;
     }
-    .toggle .toggle-checked {
-      background-color: $light-grey !important;
-    }
-    .toggle .toggle-checked .toggle-inner {
-      background-color: $primary !important;
-    }
-     
-    .bg{
-      background-color: #D5DBDB;
-    }
-    .btn{
-      background-color: initial;
-      margin-left: 75%;
-      color: brown;
-      font-size: medium;
-      height: 19%;
-      width: 15%;
-   }
-   .btn1{
-    background-color:#99A3A4 ;
-    color:white;
+  }
+  .social-icon {
+    width: 86px;
+    padding: 0px 20px;
+  }
+  .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  .inputfile + label {
+    font-size: 2.7em;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    display: inline-block;
+    display: block;
+    margin: auto;
+    width: 20%;
+    text-align: center;
+  }
+  .toggle .toggle-checked {
+    background-color: $light-grey !important;
+  }
+  .toggle .toggle-checked .toggle-inner {
+    background-color: $primary !important;
+  }
+   
+  .bg{
+    background-color: #D5DBDB;
+  }
+  .btn{
+    background-color: initial;
+    margin-left: 75%;
+    color: brown;
     font-size: medium;
-    width: 150%;
-    margin-left: -40%;
-  }
-  }
+    height: 19%;
+    width: 15%;
+ }
+ .btn1{
+  background-color:#99A3A4 ;
+  color:white;
+  font-size: medium;
+  width: 150%;
+  margin-left: -40%;
+}
+}
 
-  
