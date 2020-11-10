@@ -13,28 +13,27 @@ import {
   AngularFireObject,
   AngularFireList
 } from "@angular/fire/database";
-// import {
-//   PayPal,
-//   PayPalPayment,
-//   PayPalConfiguration
-// } from "@ionic-native/paypal";
+ /*import {
+   PayPal,
+   PayPalPayment,
+   PayPalConfiguration
+ } from "@ionic-native/paypal";*/
 import { Stripe } from "@ionic-native/stripe";
 import { CheckoutService } from "./odeme.service";
 import {
   Braintree,
-  
   // ApplePayOptions,
   PaymentUIOptions
 } from "@ionic-native/braintree";
 
 
-// const payPalEnvironmentSandbox = "AcgkbqWGamMa09V5xrhVC8bNP0ec9c37DEcT0rXuh7hqaZ6EyHdGyY4FCwQC-fII-s5p8FL0RL8rWPRB";
+const payPalEnvironmentSandbox = "AcgkbqWGamMa09V5xrhVC8bNP0ec9c37DEcT0rXuh7hqaZ6EyHdGyY4FCwQC-fII-s5p8FL0RL8rWPRB";
 const publishableKey = "pk_test_mhy46cSOzzKYuB2MuTWuUb34";
 const stripe_secret_key = "sk_test_GsisHcPqciYyG8arVfVe2amE";
 
-// const merchantId = "bbn2tzfk3zbq2jqr";
-// const public_key = "d2qg75y3q8zb8rff";
-// const private_key = "9cc7ba1d73b912d74e5bb197b24ef6d0";
+ const merchantId = "5ygrm337bv7crx6v";
+ const public_key = "6jxkskrq8365x9jd";
+ const private_key = "3532bdc23c9289ee9efee42613eaad47";
 const braintree_token = "sandbox_3tt6pwn3_bbn2tzfk3zbq2jqr";
 // const braintree_token = "sandbox$4gv8zndgpdy6gnvt$e3c0c77402cbf5ba88bc4c76f1f85dc9";
 
@@ -50,7 +49,6 @@ export class OdemePage {
   order: any = {};
   userId: any;
   userDetails: any = {
-    email: "",
     name: "",
     userid: ""
   };
@@ -68,11 +66,11 @@ export class OdemePage {
   public paymentTypes: any = [
     {
       default: false,
-      type: "Starbucks Cart",
+      type: "Starbuck Card",
       value: "Stripe",
-      logo: "assets/img/stripe.png"
+      logo: "assets/img/starbuckscard.jpg"
     },
-    { default: false, type: "Kredi Kartı", value: "COD", logo: "" }
+    { default: false, type: "ÖDE", value: "COD", logo: "" }
   ];
 
   constructor(
@@ -80,7 +78,7 @@ export class OdemePage {
     public db: AngularFireDatabase,
     public navCtrl: NavController,
     public navParams: NavParams,
-    // public payPal: PayPal,
+  //   public payPal: PayPal,
     public stripe: Stripe,
     private braintree: Braintree,
     private checkoutService: CheckoutService,
@@ -122,29 +120,29 @@ export class OdemePage {
     this.paymentDetails.paymentType = paymentType;
   }
 
-  // paywithBraintree() {
-  //   const paymentOptions: PaymentUIOptions = {
-  //     amount: "14.99",
-  //     primaryDescription: "brain tree payment"
-  //   };
+  /* paywithBraintree() {
+    const paymentOptions: PaymentUIOptions = {
+      amount: "14.99",
+     primaryDescription: "brain tree payment"
+    };
 
-  //   this.braintree
-  //     .initialize(braintree_token)
-  //     // .then(() => this.braintree.setupApplePay(appleOptions))
-  //     .then(() => this.braintree.presentDropInPaymentUI(paymentOptions))
-  //     .then((result: any) => {
-  //       if (result.userCancelled) {
-  //         console.log("User cancelled payment dialog.");
-  //       } else {
-  //         console.log("User successfully completed payment!");
-  //         console.log("Payment Nonce: " + JSON.stringify(result.nonce));
-  //         console.log("Payment Result.", JSON.stringify(result));
-  //       }
-  //     })
-  //     .catch((error: string) => console.log("Error- " + JSON.stringify(error)));
-  // }
+    this.braintree
+      .initialize(braintree_token)
+      // .then(() => this.braintree.setupApplePay(appleOptions))
+      .then(() => this.braintree.presentDropInPaymentUI(paymentOptions))
+      .then((result: any) => {
+         if (result.userCancelled) {
+          console.log("User cancelled payment dialog.");
+       } else {
+          console.log("User successfully completed payment!");
+          console.log("Payment Nonce: " + JSON.stringify(result.nonce));
+          console.log("Payment Result.", JSON.stringify(result));
+         }
+       })
+       .catch((error: string) => console.log("Error- " + JSON.stringify(error)));
+   }*/
 
-  onCheckOut(form: NgForm) {
+  ode(form: NgForm) {
     this.order.orderId = Math.floor(Math.random() * 90000) + 10000;
     this.order.userDetails = this.userDetails;
     this.order.userId = this.userId;
@@ -154,25 +152,25 @@ export class OdemePage {
     delete this.order.shippingAddress.$key;
     this.order.statusReading = [
       {
-        title: "Your order has been accepted.You will get notified the status here.",
+        title: "Siparişiniz kabul edildi, burada durum size bildirilecek.",
         time: Date.now()
       }
     ];
     if (this.paymentType == "Braintree") {
-      // const config = {
-      //   PayPalEnvironmentProduction: "",
-      //   PayPalEnvironmentSandbox: payPalEnvironmentSandbox
-      // };
+       const config = {
+         PayPalEnvironmentProduction: "",
+         PayPalEnvironmentSandbox: payPalEnvironmentSandbox
+       };
       this.checkout.push(this.order).then(res => {
         const paymentOptions: PaymentUIOptions = {
           amount: this.order.grandTotal,
-          primaryDescription: "brain tree payment"
+          primaryDescription: "brain tree ödeme"
         };
         this.braintree.initialize(braintree_token)
           .then(() => this.braintree.presentDropInPaymentUI(paymentOptions))
           .then((result: any) => {
             if (result.userCancelled) {
-              console.log("User cancelled payment dialog.");
+              console.log("Kullanıcı ödemeyi iptal etti iletişim kutusu.");
             } else {
               this.paymentDetails.transactionId = result.clientMetadataId;
               this.saveLoyaltyData(res.key);
@@ -180,7 +178,7 @@ export class OdemePage {
                 paymentDetails: this.paymentDetails,
                 paymentStatus: "success"
               }).then(() => {
-                this.navCtrl.setRoot("ThankyouPage");
+                this.navCtrl.setRoot("TesekkurlerPage");
               });
             }
           }).catch((error: any) => {
@@ -189,67 +187,14 @@ export class OdemePage {
             }
           });
       });
-    } else if (this.paymentType == "Starbucks Cart") {
-      if (this.order.grandTotal >= 50) {
-        let loader = this.loadingCtrl.create({
-          content: "please wait.."
-        });
-        loader.present();
-        this.checkout.push(this.order).then(order => {
-          this.stripe.setPublishableKey(publishableKey);
-          let card = {
-            number: this.stripe_card.cardNumber,
-            expMonth: this.stripe_card.expiryMonth,
-            expYear: this.stripe_card.expiryYear,
-            cvc: this.stripe_card.cvc
-          };
-          this.stripe.createCardToken(card).then(token => {
-            let stripe_token: any = token;
-            // console.log('token', stripe_token);
-            if (token) {
-              this.checkoutService.chargeStripe(
-                stripe_token.id,
-                "USD",
-                Math.round(this.order.grandTotal),
-                stripe_secret_key
-              ).then(result => {
-                let res: any = result;
-                // console.log('charge stripe response--', result);
-                this.paymentDetails.transactionId = res.balance_transaction;
-                this.stripe_card = {};
-                this.saveLoyaltyData(order.key);
-                this.db.object("/orders/" + order.key).update({
-                  paymentDetails: this.paymentDetails,
-                  paymentStatus: "success"
-                }).then(() => {
-                  loader.dismiss();
-                  this.navCtrl.setRoot("TesekkurPage");
-                });
-              }, error => {
-                this.showAlert(error.message);
-                // console.log('charge stripe error', error);
-                loader.dismiss();
-              });
-            }
-          }).catch(error => {
-            loader.dismiss();
-            this.showAlert(error);
-          });
-        }, error => {
-          loader.dismiss();
-        });
-      } else {
-        this.showAlert("");
-      }
-      //order with COD
-    } else {
+    }else {
       this.checkout.push(this.orderId).then(res => {
 
 
 
-        // console.log("order placed ! " + JSON.stringify(res));
+         console.log("sipariş verildi! " + JSON.stringify(res));
         this.saveLoyaltyData(res.key);
-        this.navCtrl.setRoot("ThankyouPage");
+        this.navCtrl.setRoot("TesekkurlerPage");
       });
     }
   }
@@ -268,14 +213,14 @@ export class OdemePage {
           // console.log("loyaltyUpdated-" + result);
         });
     } else {
-      console.log("loyalaty Not applied!!");
+      console.log("loyality uygulanmadı!!");
     }
   }
 
   showAlert(message) {
     let alert = this.alertCtrl.create({
       subTitle: message,
-      buttons: ["Tamam"]
+      buttons: ["OK"]
     });
     alert.present();
   }

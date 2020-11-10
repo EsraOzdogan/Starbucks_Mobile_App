@@ -1,13 +1,13 @@
 <ion-header>
     <ion-navbar>
-        <ion-title class="title">{{"Starbucks Card İle Öde" |translate}}
+        <ion-title class="title">{{"ÖDEME" |translate}}
         </ion-title>
     </ion-navbar>
 </ion-header>
 
 <ion-content>
     <ion-list radio-group class="radio-list">
-        <p class="card-title">Starbucks Card İle Ödeme</p>
+        <p class="card-title">ÖDEME SEÇENEKLERİ</p>
         <ion-list radio-group>
             <ion-row class="card-type">
                 <ion-col col-12 *ngFor=" let payment of paymentTypes">
@@ -56,7 +56,7 @@
         </section>
         <div class="btn-wrapper">
             <button ion-button full class="btn-lg" type="button" [disabled]="paymentType =='Stripe' && (!stripe_card.cardNumber || !stripe_card.expiryMonth || !stripe_card.expiryYear || !stripe_card.cvc)"
-                (click)="onCheckOut()">Şimdi Öde
+                (click)="ode()">ÖDE
             </button>
         </div>
     </ion-list>

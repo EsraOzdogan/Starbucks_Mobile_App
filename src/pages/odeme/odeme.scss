@@ -1,6 +1,6 @@
 page-odeme {
   .content {
-    background-image: url(../assets/img/address-bg.jpg);
+    background-image: url(../assets/img/logo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +28,7 @@ page-odeme {
     .radio-item.item-radio-checked {
       border-color: $primary-lighter !important;
       .label {
-        color: $primary;
+        color: burlywood;
       }
     }
     img {
