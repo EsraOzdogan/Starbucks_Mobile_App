@@ -56,7 +56,7 @@ export class FavoriPage {
   }
 
   detaygit(key) {
-    this.navCtrl.push("ProductDetailsPage", { id: key });
+    this.navCtrl.push("UrunDetayPage", { id: key });
   }
 
   navcart() {

@@ -1,85 +1,84 @@
 page-favori {
-    .baslik{
-        color: black;
-        background-color: #D5DBDB;
-      }
-    .header-btn {
-      margin: 0 10px !important;
+  .baslik{
+      color: black;
+      background-color: #D5DBDB;
     }
-    h3 {
-      font-size: 2.2rem;
-      text-align: center;
-      color: $primary;
-    }
-  
-    ion-label {
-      white-space: normal;
-    }
-    .heading {
-      font-size: 15px;
-      font-weight: 700;
-      color: $grey;
-    }
-    .item-md ion-thumbnail img {
-      height: 5em;
-      width: 5em;
-    }
-    .add {
-      background-color: $primary;
-      border-radius: 0px;
-      box-shadow: none;
-    }
-    .delete {
-      border-radius: 0px;
-      box-shadow: none;
-      float: right;
-    }
-    .empty-cart {
-      font-size: 10.2em;
-      display: block;
-      margin: 0.2em auto 0;
-      color: $danger;
-    }
-    h4 {
-      font-size: 2.2rem;
-      text-align: center;
-      color: $white;
-    }
-    .continue-btn {
-      background-color: $primary !important;
-      color: #fff;
-      padding: 13.5px 30px;
-      box-shadow: none;
-      display: block;
-      margin: 2em auto 0;
-      border-radius: 0;
-    }
+  .header-btn {
+    margin: 0 10px !important;
+  }
+  h3 {
+    font-size: 2.2rem;
+    text-align: center;
+    color: $primary;
+  }
+
+  ion-label {
+    white-space: normal;
+  }
+  .heading {
+    font-size: 15px;
+    font-weight: 700;
+    color: $grey;
+  }
+  .item-md ion-thumbnail img {
+    height: 5em;
+    width: 5em;
+  }
+  .add {
+    background-color: $primary;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  .delete {
+    border-radius: 0px;
+    box-shadow: none;
+    float: right;
+  }
+  .empty-cart {
+    font-size: 10.2em;
+    display: block;
+    margin: 0.2em auto 0;
+    color: $danger;
+  }
+  h4 {
+    font-size: 2.2rem;
+    text-align: center;
+    color: $white;
+  }
+  .continue-btn {
+    background-color: $primary !important;
+    color: #fff;
+    padding: 13.5px 30px;
+    box-shadow: none;
+    display: block;
+    margin: 2em auto 0;
+    border-radius: 0;
+  }
 
 .bg{
-    background-color: #CCD1D1;
+  background-color: #CCD1D1;
 }
-    .uyarı{
-        background-color: white;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-left: 5%;
-        width: 90%;
-        border-radius: 5%;;
-    }
-    .yazı{
-        color: black;
-    }
-    .circle{
-        background-color: initial;
-        margin-top: 65%;
-        margin-left: 45%;
-        margin-bottom: -5%;
-        font-size: xx-large;
-    }
-    .ürünyok{
-        margin-top: -25%;
-    }
+  .uyarı{
+      background-color: white;
+      padding-top: 10%;
+      padding-bottom: 10%;
+      padding-left: 5%;
+      padding-right: 5%;
+      margin-left: 5%;
+      width: 90%;
+      border-radius: 5%;;
   }
-  
+  .yazı{
+      color: black;
+  }
+  .circle{
+      background-color: initial;
+      margin-top: 65%;
+      margin-left: 45%;
+      margin-bottom: -5%;
+      font-size: xx-large;
+  }
+  .ürünyok{
+      margin-top: -25%;
+  }
+}
