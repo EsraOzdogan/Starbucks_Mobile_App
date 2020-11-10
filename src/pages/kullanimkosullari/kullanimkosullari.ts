@@ -31,6 +31,5 @@ export class KullanımKosullarıPage {
   geri(){
     this.navCtrl.setRoot("AyarlarPage");
   }
-
   
 }
