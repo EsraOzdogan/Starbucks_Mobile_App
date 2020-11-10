@@ -1,94 +1,82 @@
 <ion-header>
-    <ion-navbar hideBackButton="true">
-        <ion-icon class="icon" name="arrow-back-sharp" item-left></ion-icon>
-        <ion-title class="anabaslık">{{'STARBUCKS CARD' | translate }}</ion-title>
-        <div class="btn-wrap">
-            <button type="button" class="kaydet" (click)="cartOlustur()">Kaydet</button>
-          </div>
-
-    </ion-navbar>
-</ion-header>
-
-    
-   <ion-content class="kayit-form" no-scroll padding>
-    <ion-scroll scrollY="true" class="scroll">
-        <div class="önödeme">
-            <p class="aktivasyon-text">{{"Ön Ödemeli Starbucks Card oluşturmak için lütfen aşağıdaki bilgileri doldurun." | translate}}</p>
+  <ion-navbar hideBackButton="true">
+      <ion-icon class="icon" name="arrow-back-sharp" item-left></ion-icon>
+      <ion-title class="anabaslık">{{'STARBUCKS CARD' | translate }}</ion-title>
+      <div class="btn-wrap">
+          <button type="button" class="kaydet" (click)="cartOlustur()">Kaydet</button>
         </div>
 
-            <ion-row>
-                <ion-col col-12 class="üst">
-                    <ion-item>
-                        <ion-input class="a" type="text" name="name"  placeholder="T.C. Kimlik Numarası" [(ngModel)]="tckimlik" required="">
-                        </ion-input>
-                    </ion-item>
-                </ion-col>
-                <ion-icon class="icon2" (click)="soruisareti()" name="help-circle"></ion-icon>
+  </ion-navbar>
+</ion-header>
 
-            </ion-row>
+  
+ <ion-content class="kayit-form" no-scroll padding>
+  <ion-scroll scrollY="true" class="scroll">
+      <div class="önödeme">
+          <p class="aktivasyon-text">{{"Ön Ödemeli Starbucks Card oluşturmak için lütfen aşağıdaki bilgileri doldurun." | translate}}</p>
+      </div>
 
-
-            <p class="aktivasyon-text">{{"T.C. Kimlik Numaranız kimliğinizdeki ad ve soyad bilgileriniz ile eşleşmelidir." | translate}}</p>
-
-            <div class="order">
-                <div class="select-box">
-                  <ion-item class="data-holder" >
-                    <ion-datetime displayFormat="DD-MM-YYYY" placeholder="DOĞUM TARİHİ" [(ngModel)]="dogumtarihi"></ion-datetime>
+          <ion-row>
+              <ion-col col-12 class="üst">
+                  <ion-item>
+                      <ion-input class="a" type="text" name="name"  placeholder="T.C. Kimlik Numarası" [(ngModel)]="tckimlik" required="">
+                      </ion-input>
                   </ion-item>
-                </div>
-              </div>
-            
+              </ion-col>
+              <ion-icon class="icon2" (click)="soruisareti()" name="help-circle"></ion-icon>
 
-            <p class="aktivasyon-text">{{"Lütfen doğum tarihinizi seçiniz." | translate}}</p>
-
-
-            <div class="order">
-                <div class="select-box">
-                  <ion-item class="data-holder">
-                    <!-- <ion-item> -->
-                    <ion-label>Cinsiyet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ion-label>
-                    <ion-select [(ngModel)]="cinsiyet">
-                      <ion-option value="Kadın">Kadın</ion-option>
-                      <ion-option value="Erkek">Erkek</ion-option>
-                    </ion-select>
-                    <!-- </ion-item> -->
-                  </ion-item>
-                </div>
-                <!--select-box-->
-              </div>
+          </ion-row>
 
 
+          <p class="aktivasyon-text">{{"T.C. Kimlik Numaranız kimliğinizdeki ad ve soyad bilgileriniz ile eşleşmelidir." | translate}}</p>
 
-              <ion-row>
-            <ion-col col-12 class="üst">
-                <ion-item>
-                    <ion-input class="a" type="tel" name="mobileNo" id="mobileNo"  placeholder="Telefon Numarası" [(ngModel)]="telno"></ion-input>
+          <div class="order">
+              <div class="select-box">
+                <ion-item class="data-holder" >
+                  <ion-datetime displayFormat="DD-MM-YYYY" placeholder="DOĞUM TARİHİ" [(ngModel)]="dogumtarihi"></ion-datetime>
                 </ion-item>
-            </ion-col>
-        </ion-row>
+              </div>
+            </div>
+          
 
-        <ion-row>
+          <p class="aktivasyon-text">{{"Lütfen doğum tarihinizi seçiniz." | translate}}</p>
+
+
+          <div class="order">
+              <div class="select-box">
+                <ion-item class="data-holder">
+                  <!-- <ion-item> -->
+                  <ion-label>Cinsiyet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ion-label>
+                  <ion-select [(ngModel)]="cinsiyet">
+                    <ion-option value="Kadın">Kadın</ion-option>
+                    <ion-option value="Erkek">Erkek</ion-option>
+                  </ion-select>
+                  <!-- </ion-item> -->
+                </ion-item>
+              </div>
+              <!--select-box-->
+            </div>
+
+
+
+            <ion-row>
           <ion-col col-12 class="üst">
               <ion-item>
-                  <ion-input class="a" type="tel" name="mobileNo" id="mobileNo"  placeholder="Şifre" [(ngModel)]="kartsifre"></ion-input>
+                  <ion-input class="a" type="tel" name="mobileNo" id="mobileNo"  placeholder="Telefon Numarası" [(ngModel)]="telno"></ion-input>
               </ion-item>
           </ion-col>
       </ion-row>
 
-            
-            <p class="aktivasyon-text">{{"İzniniz olmadan sizinle iletişime geçilmeyecektir." | translate}}</p>
-        
-           
+      <ion-row>
+        <ion-col col-12 class="üst">
+            <ion-item>
+                <ion-input class="a" type="tel" name="mobileNo" id="mobileNo"  placeholder="Şifre" [(ngModel)]="kartsifre"></ion-input>
+            </ion-item>
+        </ion-col>
+    </ion-row>
 
+          
+          <p class="aktivasyon-text">{{"İzniniz olmadan sizinle iletişime geçilmeyecektir." | translate}}</p>
 
-
-           
-         
-
-
-
-        
-
-
-    </ion-scroll>
-   </ion-content>
+  </ion-scroll>
+ </ion-content>
