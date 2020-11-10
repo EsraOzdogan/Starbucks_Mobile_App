@@ -1,33 +1,33 @@
 <ion-header>
-    <ion-navbar>
-      <ion-title>Booking History</ion-title>
-    </ion-navbar>
-  </ion-header>
-  <ion-content>
-    <ion-card class="card_content" *ngFor="let item of kredikartlari; let i=index;">
-      <ion-list class="overlay_top">
-        
-        <h2 class="id"> <ion-icon></ion-icon> &nbsp; Starbucks Kredi Kartı Bilgilerim : {{i+1}}</h2>
-      </ion-list>
-      <ion-card-content class="overlay_content">
-       
-        <ion-row class="details" text-center>
-          <ion-col col-6>
-            <h1 class="persons">{{item.tckimlik}}</h1>
-          </ion-col>
-          <ion-col col-6>
-            <h1 class="persons">{{item.person}}</h1>
-          </ion-col>
-          <ion-col col-6>
-            <h1 class="persons">{{item.telno}}</h1>
-          </ion-col>
-          <ion-col col-6>
-            <h1 class="persons">{{item.dogumtarihi}}</h1>
-          </ion-col>
+  <ion-navbar>
+    <ion-title>SANAL KARTLARIM</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-card class="card_content" *ngFor="let item of kredikartlari; let i=index;">
+    <ion-list class="overlay_top">
+      
+      <h2 class="id"> <ion-icon></ion-icon> &nbsp; Starbucks Kredi Kartı Bilgilerim : {{i+1}}</h2>
+    </ion-list>
+    <ion-card-content class="overlay_content">
+     
+      <ion-row class="details" text-center>
+        <ion-col col-6>
+          <h1 class="persons">{{item.tckimlik}}</h1>
+        </ion-col>
+        <ion-col col-6>
+          <h1 class="persons">{{item.cinsiyet}}</h1>
+        </ion-col>
+        <ion-col col-6>
+          <h1 class="persons">{{item.telno}}</h1>
+        </ion-col>
+        <ion-col col-6>
+          <h1 class="persons">{{item.dogumtarihi}}</h1>
+        </ion-col>
 
-        </ion-row>
-   
-      </ion-card-content>
-  
-    </ion-card>
-  </ion-content>
+      </ion-row>
+ 
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>
