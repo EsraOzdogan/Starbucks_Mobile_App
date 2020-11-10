@@ -1,11 +1,11 @@
 //config default
 export const firebaseConfig = {
-  apiKey: "AIzaSyB5pEE68ps5yjImKR-U0IS_lRpZJ7ZBqeE",
-    authDomain: "star-44c9b.firebaseapp.com",
-    databaseURL: "https://star-44c9b.firebaseio.com",
-    projectId: "star-44c9b",
-    storageBucket: "star-44c9b.appspot.com",
-    messagingSenderId: "973470223763",
-    appId: "1:973470223763:web:efc0593fcaa1361fefec66",
-    measurementId: "G-XYHZYN5TXH"
+  apiKey: "AIzaSyBBfGZtmXQ3zpoRgOExzf89DPsVshuFqdc",
+    authDomain: "starbucks-b3221.firebaseapp.com",
+    databaseURL: "https://starbucks-b3221.firebaseio.com",
+    projectId: "starbucks-b3221",
+    storageBucket: "starbucks-b3221.appspot.com",
+    messagingSenderId: "608337985854",
+    appId: "1:608337985854:web:a02cc1e9721e5fbc01ec6f",
+    measurementId: "G-6WH42GKKF1"
 };
