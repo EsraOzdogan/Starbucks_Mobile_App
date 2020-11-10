@@ -33,14 +33,14 @@
         </ion-row>
         <!--button-->
         <ion-row>
-            
-            <button class="vazgecbuton" (click)="vazgec()"  ion-button>{{"Vazgeç" | translate}}
-            </button>
-            <button class="girisyapbuton" type="submit" [disabled]="!valForm.valid" ion-button>{{"GİRİŞ YAP" | translate}}
-            </button>
-        
-   
-        
+            <ion-col size="6"> 
+                    <button class="vazgecbuton" (click)="vazgec()"  ion-button>{{"Vazgeç" | translate}}
+                    </button>
+            </ion-col>
+            <ion-col size="6">
+                <button class="girisyapbuton" type="submit" [disabled]="!valForm.valid" ion-button>{{"GİRİŞ YAP" | translate}}
+                </button>
+            </ion-col>
     </ion-row>
     </form>
 

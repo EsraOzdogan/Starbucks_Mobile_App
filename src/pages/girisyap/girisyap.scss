@@ -24,19 +24,15 @@ page-girisyap {
     color: $white;
   }
   .vazgecbuton{
-    width: 50%;
+    width: 100% !important;
     height: 65px;
     background-color: darkgray;
     color:gray;
   }
   .girisyapbuton{
-    width: 50%;
+    width: 100% !important;
     height: 65px;
     background-color: burlywood;
     color: white;
-    display: block;
-    margin-left: 50%;
-    margin-top: -18.5%;
-
   }
 }
