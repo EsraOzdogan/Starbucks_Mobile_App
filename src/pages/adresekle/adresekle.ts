@@ -27,7 +27,7 @@ export class AdresEklePage {
         .then(res => {
           var id = this.navParams.get("id");
           if (id == 1) {
-            this.navCtrl.push("AdresListePage");
+            this.navCtrl.push("UserAddressListPage");
           } else {
             this.navCtrl.pop();
           }

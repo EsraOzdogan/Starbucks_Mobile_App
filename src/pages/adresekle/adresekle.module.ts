@@ -8,4 +8,4 @@ import { PipesModule } from "../../app/pipes.module";
   imports: [IonicPageModule.forChild(AdresEklePage), PipesModule],
   exports: [AdresEklePage]
 })
-export class AdresEkleModule {}
+export class AdresEklePageModule {}
