@@ -1,0 +1,25 @@
+page-tesekkurler {
+  .page-content {
+    background-color: $white !important;
+    .thanks {
+      text-align: center;
+      margin: 0 auto;
+      h2 {
+        margin-top: 6.8rem;
+        font-size: 2.8rem;
+        font-weight: 600;
+      }
+      p {
+        line-height: 2.5rem;
+        font-weight: 500;
+      }
+    }
+    .continue-btn {
+      height: 4.6rem;
+      border-color: burlywood;
+      color: burlywood;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
