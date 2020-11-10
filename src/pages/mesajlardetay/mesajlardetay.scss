@@ -1,0 +1,28 @@
+page-mesajlardetay {
+    ion-card img {
+      height: 290px;
+    }
+    .ana-baslik{
+      background-color: #B2BABB;
+    }
+    .hesabım-title{
+      margin-left: -55%;
+      color: #707B7C;
+  }
+    .card {
+      margin: 0px;
+      width: 100%;
+    }
+    .news-head {
+      font-size: 2rem;
+      font-weight: 700;
+      text-align: center;
+      padding: 10px;
+    }
+    .news-time {
+      padding: 0 17px;
+      font-size: 10px;
+      color: $grey;
+    }
+  }
+  

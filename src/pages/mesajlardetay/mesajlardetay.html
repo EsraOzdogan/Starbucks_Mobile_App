@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-navbar class="ana-baslik" hideBackButton="true">
+        <button ion-button menuToggle>
+          <ion-icon class="icon" name="menu-sharp" item-left></ion-icon>      </button>
+        <ion-title class="hesabım-title">{{"MESAJ DETAYLARI" | translate}}
+        </ion-title>   
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+    <ion-card>
+        <img src="{{newsDetails.img}}">
+        <p class="news-head" center>{{newsDetails.title}}:</p>
+        <p class="news-time">09.02.2017,10:20 am</p>
+        <ion-card-content>
+            <p>{{newsDetails.description}}. </p>
+        </ion-card-content>
+
+    </ion-card>
+</ion-content>
