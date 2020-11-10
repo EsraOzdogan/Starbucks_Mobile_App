@@ -1,10 +1,30 @@
 <ion-header>
-    <ion-navbar>
-        <ion-title>{{"MESAJLAR" | translate}}</ion-title>
-    </ion-navbar>
+    <ion-navbar class="ana-baslik" hideBackButton="true">
+        <button ion-button menuToggle>
+          <ion-icon class="icon" name="menu-sharp" item-left></ion-icon>      </button>
+        <ion-title class="hesabım-title">{{"MESAJLAR" | translate}}
+        </ion-title>   
+  </ion-navbar>
 </ion-header>
+  
 
 
-<ion-content>
-    <h1>Mesaj yok</h1>
+<ion-content [ngClass]="{bg:!isNews()}">
+    <div *ngIf="!isNews()">
+        <ion-row>
+            <ion-icon class="empty-news" name="timer" item-left></ion-icon>
+        </ion-row>
+        <h4>Mesaj Yok</h4>
+    </div>
+    <div *ngIf="isNews()">
+        <ion-list>
+            <ion-item *ngFor="let mesaj of newsData" (click)="mesajDetay(mesaj.$key)">
+                <ion-thumbnail item-left>
+                    <img src="{{mesaj.img}}">
+                </ion-thumbnail>
+                <h2>{{mesaj.title}}:- </h2>
+                <p>{{mesaj.description | limitPipe:50}}</p>
+            </ion-item>
+        </ion-list>
+    </div>
 </ion-content>

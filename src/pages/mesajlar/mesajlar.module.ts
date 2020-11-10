@@ -9,3 +9,5 @@ import { PipesModule } from "../../app/pipes.module";
   exports: [MesajlarPage]
 })
 export class MesajlarPageModule {}
+
+
