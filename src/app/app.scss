@@ -10,6 +10,17 @@
   color: $white;
   background-color: transparent;
 }
+.menu-badge {
+  color: #fff;
+  background-color: gray;
+  float: right;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  font-size: 12px;
+  padding-top: 7px;
+  padding-left: 7px;
+}
 
 body {
   font-family: "PT Sans", sans-serif;
