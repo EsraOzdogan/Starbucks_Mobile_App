@@ -2,8 +2,7 @@
     <ion-navbar hideBackButton="true">
         <ion-icon class="icon" name="arrow-back-sharp" item-left></ion-icon>
         <ion-title class="anabaslık">{{'ÜYE OL' | translate }}</ion-title>
-        <button class="girisyapbuton" type="submit" [disabled]="!registration.valid" ion-button>{{"Oluştur" | translate}}
-        </button>
+       
     </ion-navbar>
 </ion-header>
 
@@ -64,7 +63,7 @@
                     <ion-label>{{"SMS almak istiyorum."| translate}}</ion-label>
                     <ion-toggle color="secondary"></ion-toggle>
                     </ion-item>
-                    <ion-item>
+                   <!-- <ion-item>
                         <ion-checkbox color="dark" class="checkbox"> </ion-checkbox>
                         
 
@@ -76,7 +75,7 @@
                          <a class="yesil">{{"Kişisel Verileri Koruma Kanunu Açık Rıza Formu"| translate}}</a>
                          {{"nu okudum,onaylıyorum." | translate}}
                     </p>
-                    
+                -->
                 
             </ion-row>
             <ion-row>
@@ -86,12 +85,12 @@
                 </ion-col>
             </ion-row>
         </form> 
-        <ion-row>
+        <!--<ion-row>
             <ion-col col-12>
                 <a (click)="navLogin()">
                     <p text-center>{{"Kayıt Başarıılı !" | translate}}</p>
                 </a>
             </ion-col>
-        </ion-row>
+        </ion-row>-->
     </ion-scroll>
    </ion-content>
