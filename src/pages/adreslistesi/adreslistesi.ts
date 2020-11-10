@@ -16,10 +16,10 @@ import { map } from "rxjs/operators";
 
 @IonicPage()
 @Component({
-  selector: "page-adresliste",
-  templateUrl: "adresliste.html"
+  selector: "page-adreslistesi",
+  templateUrl: "adreslistesi.html"
 })
-export class AdresListePage {
+export class AdresListesiPage {
   grandTotal: any;
   subTotal: any;
   address: any = {};
@@ -106,19 +106,18 @@ export class AdresListePage {
     this.orderDetails.cart = JSON.parse(localStorage.getItem("Cart"));
   }
 
-  // Add Address
-  addAddress() {
+  adresEkle() {
     this.navCtrl.push("AdresEklePage", {
       id: 0
     });
   }
 
-  //Selected Address
-  selectAddress(key, address) {
+  adresSec(key, address) {
     this.orderDetails.shippingAddress = address;
+ 
   }
 
-  checkOut() {
+  odeme() {
     this.orderDetails.usedLoyaltyPoints =
       this.checked == true ? this.loyaltyPoints : 0;
     this.orderDetails.appliedLoyaltyPoints = this.checked;
@@ -127,21 +126,21 @@ export class AdresListePage {
       this.navCtrl.push("OdemePage", {
         orderDetails: this.orderDetails
       });
-    }  else {
-      this.showAlert("Select Your Address First!");
+    } else {
+      this.showAlert("İlk Önce Adresinizi Seçmelisiniz!");
     }
   }
 
   showAlert(message) {
     let alert = this.alertCtrl.create({
-      title: "Sorry!",
+      title: "Üzgünüm!",
       subTitle: message,
-      buttons: ["OK"]
+      buttons: ["Tamam"]
     });
     alert.present();
   }
 
-  updateLoyality(event) {
+  Loyalityguncelle(event) {
     if (this.loyaltyPoints >= this.loyaltyLimit) {
       this.checked = event.value;
       if (event.value == true) {

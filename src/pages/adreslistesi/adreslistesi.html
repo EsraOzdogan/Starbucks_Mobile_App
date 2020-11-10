@@ -1,0 +1,56 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title class="title">{{"ADRES EKLE" | translate}}
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+    <!--amount calculation-->
+    <ion-row class="amount-block">
+        <ion-col col-6>
+            <p class="total"> {{"Sipariş Toplamı:" | translate}}
+                <span class="currency"> {{currency?.currencySymbol}} {{payTotal | number:'.2-2'}}
+                </span>
+            </p>
+        </ion-col>
+        <ion-col col-6>
+            <p class="total right">Kazanılan Yıldızlar:
+                <span class="currency">{{ loyaltyPoints}}</span>
+            </p>
+        </ion-col>
+        <ion-item class="loyality-check">
+            <ion-label>Yıldızları Kullan</ion-label>
+            <ion-checkbox [disabled]="loyaltyPoints <loyaltyLimit" checked="checked" (ionChange)="Loyalityguncelle($event)"></ion-checkbox>
+        </ion-item>
+        <p class="warning" *ngIf="loyaltyPoints <loyaltyLimit">Yıldızlardan faydalanmak için en az {{loyaltyLimit}} yıldıza sahip olmalısın</p>
+        <div *ngIf="checked == true">
+            <p class="total"> Ödenecek Tutar:
+                <span class="currency"> {{currency?.currencySymbol}} {{orderDetails.grandTotal | number:'.2-2'}}</span>
+            </p>
+        </div>
+    </ion-row>
+
+    <div>
+        <ion-list radio-group class="size-list">
+            <ion-item class="add" (click)="adresEkle()">{{"Yeni Adres Ekle" | translate}}
+                <ion-icon name="add"></ion-icon>
+            </ion-item>
+        </ion-list>
+        <ion-list radio-group class="address-radio">
+            <ion-item *ngFor="let address of addressList">
+                <ion-label>
+                    <p class="show-address">{{address.name}} </p>
+                    <p class="show-address">{{address.address}}</p>
+                    <p class="show-address">{{address.city}}</p>
+                </ion-label>
+                <ion-radio (ionSelect)="adresSec(address.$key,address)"></ion-radio>
+            </ion-item>
+        </ion-list>
+        <button ion-button block class="continue-btn" (click)="odeme()">{{"DEVAM ET" | translate}} &nbsp;
+            <ion-icon name="arrow-forward"></ion-icon>
+        </button>
+    </div>
+</ion-content>
