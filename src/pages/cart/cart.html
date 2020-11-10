@@ -6,6 +6,9 @@
       <ion-title class="hesabım-title">{{"STARBUCKS CARD" | translate}}
       </ion-title>
     </ion-navbar> 
+
+
+    
   </ion-header>
   
   <ion-content class="background-image" no-scroll padding>
@@ -62,7 +65,7 @@
   </ion-content>
   
   <ion-content [ngClass]="{bg:!isCart()}" *ngIf="isLoggedin()" class="bg-img" no-scroll padding>
-  <div>
+  <!--<div>
               
       <button class="btn" no-scroll padding>
           <p class="yazı">{{"Mevcut STARBUCKS CARD'ınızı buradan ekleyebilirsiniz." | translate}}</p>
@@ -98,7 +101,7 @@
 
 
 
-  </div>
+  </div>-->
 
 
 
@@ -215,8 +218,7 @@
             </div>
         </ion-col>
     </ion-row>
-    <!-- row-bill-details -->
-    <!-- continue button -->
+
     <ion-row>
         <ion-col col-12>
             <button ion-button block class="continue-btn" (click)="nav()">{{"Devam Et"| translate}}</button>

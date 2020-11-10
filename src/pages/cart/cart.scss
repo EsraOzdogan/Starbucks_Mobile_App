@@ -1,315 +1,322 @@
 page-cart{
-.btn{
-  margin-top: -12%;
-  margin-left: -12%;
-  margin-right: -12%;
-  background: url('../assets/img/starbuckscard.jpg')  ;
-  background-size: cover;
- /* -webkit-transition: all;
-  transition: all;*/
-  
-}
-/*.btn:hover{
-  
-  -webkit-transform: scaleX(-1); 
-  transform: scaleX(-1);
-}*/
-.yazı{
-  padding-left: 10%;
-  padding-right: 5%;
-  margin-left: -12%;
-margin-right: 5%;
-  margin-top: 29%;
-  color: white;
-  margin-left: 5%;
-  font-size: large;
- }
- .yazı1{
-  color: white;
-  font-size: larger;
-  
-  padding-top: -1%;
-  padding-bottom:-1%;
- }
- .yaz{
-   margin-left: 9%;
-  margin-right: 9%;
-  margin-bottom: 5%;
-
- }
- .a{
-   
-padding-top: 4%;
-padding-bottom: 4%;
- }
- .cardnumarası{
-  margin-left: 15%;
-  border-radius: 15px;
-  margin-top: -2%;
-
-}
-.veya{
-  color: gray;
-  margin-left: 35%;
-  font-weight: bold;
-  font-size: larger;
-}
-.sanalcard{
-  background-color: #641E16;
-  color: white;
-  margin-left: -2%;
-  margin-right:5%;
-  border-radius: 15px;
-  margin-top: 5%;
-  height: 100%;
-  width: 103%;
-}
-.item{
-  border-radius: 10px;
-}
-
-
-  
-  h2 {
-    margin-top: 1rem;
-  }
-  .nav{
-    background-color: #CCD1D1;
-  }
- .hesabım-title{
-  margin-left: -15%;
-  margin-top: 2%;
-}
-  .background-image {
-    background: url('../assets/img/starbucks-card.jpg') no-repeat ;
+  .btn{
+    margin-top: -12%;
+    margin-left: -12%;
+    margin-right: -12%;
+    background: url('../assets/img/starbuckscard.jpg')  ;
     background-size: cover;
-    height: 100%;
+   /* -webkit-transition: all;
+    transition: all;*/
+    
   }
-  .üyeolbuton{
-    width: 102%;
-    height: 165%;
-    margin-left:0%;
-    background-color: burlywood;
-    border-radius: 7%;
-    //transform-box: 2px;
-    font-size: 20px;
-    margin-top: 3%;
-    font-weight: lighter;
-    color:white;
-    //background:transparent;
-
+  
+  .ana-baslik{
+    background-color: #B2BABB;
   }
-
-  /*.üyeolbuton :hover{
-    //background-color: brown;
+  .hesabım-title{
+    margin-left: -85%;
+  }
+  /*.btn:hover{
+    
+    -webkit-transform: scaleX(-1); 
+    transform: scaleX(-1);
   }*/
-  .girisyapbuton{
-    width: 102%;
-    height: 97%;
-    margin-left:0%;
-    background-color:white;
-    border-radius: 7%;
-    //transform-box: 2px;
-    font-size: 20px;
-    margin-top: 10%;
-    font-weight: lighter;
-    //background:transparent;
-    color:gray;
-  }
-  .icon{
+  .yazı{
+    padding-left: 10%;
+    padding-right: 5%;
+    margin-left: -12%;
+  margin-right: 5%;
     color: white;
-    margin-top: 65%;
+    margin-left: 5%;
+    font-size: large;
+   }
+   .yazı1{
+    color: white;
+    font-size: larger;
+    
+    padding-top: -1%;
+    padding-bottom:-1%;
+   }
+   .yaz{
+     margin-left: 9%;
+    margin-right: 9%;
     margin-bottom: 5%;
-    margin-right: 25%;
-    margin-left: -17%;
-
-
+  
+   }
+   .a{
+     
+  padding-top: 4%;
+  padding-bottom: 4%;
+   }
+   .cardnumarası{
+    margin-left: 15%;
+    border-radius: 15px;
+    margin-top: -2%;
+  
   }
-  .aktivasyon-text{
-    margin-left: 10%;
-    margin-top: 3%;
-    font-size: xx-large;
+  .veya{
+    color: gray;
+    margin-left: 35%;
     font-weight: bold;
-    color:white;
+    font-size: larger;
   }
-.yazı2{
-  margin-left: 10%;
- margin-top: 2%;
-  color: white;
-  font-size: medium;
-}
-
-
-.bg-img{
-  background-color: white;
-}
-
-.yazı4{
-  color: white;
-  margin-top: 65%;
-  margin-bottom: 3%;
- margin-right: 20%;
- }
-
-
- .cartnedir{
-   margin-top:52%;
-   background-color: initial;
-   margin-left: 25%;
- }
- .yazı5{
-   text-decoration: underline;
-   color: gray;
- }
- .no-padding {
-  padding: 0;
-}
-.alert-md .alert-radio-icon {
-  right: 13px !important;
-}
-.header-btn {
-  margin: 0 10px !important;
-}
-.price-details {
-  display: flex;
-  width: 97%;
-}
-.cart-list {
-  margin-bottom: -12px !important;
-  .cart-item {
+  .sanalcard{
+    background-color: #641E16;
+    color: white;
+    margin-left: -2%;
+    margin-right:5%;
+    border-radius: 15px;
+    margin-top: 5%;
+    height: 100%;
+    width: 103%;
+  }
+  .item{
+    border-radius: 10px;
+  }
+  
+  
+    
+    h2 {
+      margin-top: 1rem;
+    }
+    .nav{
+      background-color: #CCD1D1;
+    }
+   .hesabım-title{
+    margin-left: -15%;
+    margin-top: 2%;
+  }
+    .background-image {
+      background: url('../assets/img/starbucks-card.jpg') no-repeat ;
+      background-size: cover;
+      height: 100%;
+    }
+    .üyeolbuton{
+      width: 102%;
+      height: 165%;
+      margin-left:0%;
+      background-color: burlywood;
+      border-radius: 7%;
+      //transform-box: 2px;
+      font-size: 20px;
+      margin-top: 3%;
+      font-weight: lighter;
+      color:white;
+      //background:transparent;
+  
+    }
+  
+    /*.üyeolbuton :hover{
+      //background-color: brown;
+    }*/
+    .girisyapbuton{
+      width: 102%;
+      height: 97%;
+      margin-left:0%;
+      background-color:white;
+      border-radius: 7%;
+      //transform-box: 2px;
+      font-size: 20px;
+      margin-top: 10%;
+      font-weight: lighter;
+      //background:transparent;
+      color:gray;
+    }
+    .icon{
+      color: white;
+      margin-top: 64%;
+      margin-bottom: 6%;
+      margin-right: 25%;
+      margin-left: -17%;
+  
+  
+    }
+    .aktivasyon-text{
+      margin-left: 10%;
+      margin-top: 3%;
+      font-size: xx-large;
+      font-weight: bold;
+      color:white;
+    }
+  .yazı2{
+    margin-left: 10%;
+   margin-top: 2%;
+    color: white;
+    font-size: medium;
+  }
+  
+  
+  .bg-img{
+    background-color: white;
+  }
+  
+  .yazı4{
+    color: white;
+    margin-top: 62%;
+    margin-bottom: 5%;
+   margin-right: 20%;
+   }
+  
+  
+   .cartnedir{
+     margin-top:52%;
+     background-color: initial;
+     margin-left: 25%;
+   }
+   .yazı5{
+     text-decoration: underline;
+     color: gray;
+   }
+   .no-padding {
     padding: 0;
-    .item-inner {
+  }
+  .alert-md .alert-radio-icon {
+    right: 13px !important;
+  }
+  .header-btn {
+    margin: 0 10px !important;
+  }
+  .price-details {
+    display: flex;
+    width: 97%;
+  }
+  .cart-list {
+    margin-bottom: -12px !important;
+    .cart-item {
       padding: 0;
-      .label {
-        margin: 13px 0px;
-        .full {
-          border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      .item-inner {
+        padding: 0;
+        .label {
+          margin: 13px 0px;
+          .full {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+          }
         }
       }
-    }
-    .close-btn {
-      // margin: 4.2rem 0 0 -1rem;
-      top: 33%;
-      left: -32%;
-      color: $dark-grey !important;
-    }
-    img {
-      height: 91px;
-      width: 100%;
-    }
-    .item-name {
-      font-weight: 500;
-      font-size: 17px;
-      text-overflow: ellipsis;
-      white-space: nowrap !important;
-      overflow: hidden;
-    }
-    .item-detail {
-      font-size: 13px;
-      line-height: 1.3em;
-      white-space: initial !important;
-    }
-    .item-price {
-      font-weight: 700;
-      color: $primary;
-    }
-    .cut {
-      text-decoration: line-through;
-    }
-  }
-}
-.select-item {
-  padding-left: 0 !important;
-}
-
-.calculate {
-  margin: 0 4px;
-  .bill-detail {
-    color: rgb(102, 102, 102) !important;
-    padding: 2px 3px 0px 2px;
-    font-size: 14px;
-    font-weight: 400;
-    display: flex;
-    justify-content: space-between;
-  }
-  .cart-total {
-    font-size: 1.2em;
-    padding: 7px 0px;
-    color: #666;
-    display: flex;
-    justify-content: space-between;
-    span {
-      float: right;
-      font-weight: 700;
-      color: $primary;
+      .close-btn {
+        // margin: 4.2rem 0 0 -1rem;
+        top: 33%;
+        left: -32%;
+        color: $dark-grey !important;
+      }
+      img {
+        height: 91px;
+        width: 100%;
+      }
+      .item-name {
+        font-weight: 500;
+        font-size: 17px;
+        text-overflow: ellipsis;
+        white-space: nowrap !important;
+        overflow: hidden;
+      }
+      .item-detail {
+        font-size: 13px;
+        line-height: 1.3em;
+        white-space: initial !important;
+      }
+      .item-price {
+        font-weight: 700;
+        color: $primary;
+      }
+      .cut {
+        text-decoration: line-through;
+      }
     }
   }
-}
-h4 {
-  font-size: 2.2rem;
-  text-align: center;
-  color: $white;
-}
-.continue-btn {
-  background-color: burlywood !important;
-  height: 46px;
-  font-size: 1.8rem;
-  border-radius: 0;
-  margin-top: 1em;
-}
-.empty-btn {
-  background-color: burlywood !important;
-  height: 46px;
-  margin: 0 auto;
-  display: block;
-}
-.counter {
-  .col {
-    padding: 10px 0;
-  }
-  .count {
-    .item-count {
-      padding: 1.5px 9px;
-      font-size: 18px;
-      font-weight: 700;
-      color: #fff;
-      background-color: $grey;
-    }
-    .show-count {
-      background-color: burlywood !important;
-    }
-  }
-  ion-icon {
-    color: $danger;
-    font-size: 2rem;
-  }
-}
-.select-item {
-  margin-top: 6px;
-  .label {
-    color: #424242 !important;
-    font-size: 14px !important;
-  }
-  ion-select {
+  .select-item {
     padding-left: 0 !important;
-    font-size: 14px !important;
-    max-width: 100%;
   }
-}
-.bg {
-  background-image: url(../assets/img/bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.empty-cart {
-  font-size: 10.2em;
-  display: block;
-  margin: 0.2em auto 0;
-  color: burlywood;
-}
-
-.coupon-applied {
-  color: burlywood;
-}
-}
+  
+  .calculate {
+    margin: 0 4px;
+    .bill-detail {
+      color: rgb(102, 102, 102) !important;
+      padding: 2px 3px 0px 2px;
+      font-size: 14px;
+      font-weight: 400;
+      display: flex;
+      justify-content: space-between;
+    }
+    .cart-total {
+      font-size: 1.2em;
+      padding: 7px 0px;
+      color: #666;
+      display: flex;
+      justify-content: space-between;
+      span {
+        float: right;
+        font-weight: 700;
+        color: $primary;
+      }
+    }
+  }
+  h4 {
+    font-size: 2.2rem;
+    text-align: center;
+    color: $white;
+  }
+  .continue-btn {
+    background-color: burlywood !important;
+    height: 46px;
+    font-size: 1.8rem;
+    border-radius: 0;
+    margin-top: 1em;
+  }
+  .empty-btn {
+    background-color: burlywood !important;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+  }
+  .counter {
+    .col {
+      padding: 10px 0;
+    }
+    .count {
+      .item-count {
+        padding: 1.5px 9px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        background-color: $grey;
+      }
+      .show-count {
+        background-color: burlywood !important;
+      }
+    }
+    ion-icon {
+      color: $danger;
+      font-size: 2rem;
+    }
+  }
+  .select-item {
+    margin-top: 6px;
+    .label {
+      color: #424242 !important;
+      font-size: 14px !important;
+    }
+    ion-select {
+      padding-left: 0 !important;
+      font-size: 14px !important;
+      max-width: 100%;
+    }
+  }
+  .bg {
+    background-image: url(../assets/img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .empty-cart {
+    font-size: 10.2em;
+    display: block;
+    margin: 0.2em auto 0;
+    color: burlywood;
+  }
+  
+  .coupon-applied {
+    color: burlywood;
+  }
+  }
+  

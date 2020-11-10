@@ -123,7 +123,7 @@ nav() {
     });
     alert.present();
   } else {
-    this.navCtrl.push("AdresListePage", {
+    this.navCtrl.push("AdresListesiPage", {
       grandTotal: this.GrandTotal,
       subTotal: this.subTotal,
       couponDiscount: this.couponDiscount,
