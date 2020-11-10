@@ -18,10 +18,11 @@ export class UrunlerPage {
   noOfItems: any;
   uid;
 
-  public SliderurunData: Array<any> = [];
-  public Urunler: Array<any> = [];
-  sliderurunData: AngularFireList<any>;
-  urunler: AngularFireList<any>;
+
+  SliderurunData: any[] = [];
+
+  /*public SliderurunData: Array<any> = [];
+  sliderurunData: AngularFireList<any>;*/
 
   constructor(
     public navCtrl: NavController,
@@ -30,21 +31,20 @@ export class UrunlerPage {
     public platform: Platform,
   ) {
     let loader = this.loadingCtrl.create({
-      content: "Please wait..."
+      content: "Lütfen bekleyin..."
     });
-    loader.present().then(() => {
+   /* loader.present().then(() => {
       this.sliderurunData = af.list("/sliderurun");
-      this.urunler = af.list("/urunler");
       this.sliderurunData.valueChanges().subscribe(data => {
         this.SliderurunData = data;
       });
-      this.urunler.snapshotChanges()
+      this.sliderurunData.snapshotChanges()
         .pipe(
           map(changes =>
             changes.map(c => ({ $key: c.payload.key, ...c.payload.val() }))
           )
         ).subscribe((res: any) => {
-          this.Urunler = res;
+          this.SliderurunData = res;
         })
       loader.dismiss();
       // .subscribe(data => {
@@ -57,6 +57,24 @@ export class UrunlerPage {
       //   });
       // });
 
+    });*/
+    af
+      .list("/sliderurun")
+      .snapshotChanges()
+      .subscribe(res => {
+        this.SliderurunData = [];
+        res.forEach(item => {
+          let temp = item.payload.val();
+          temp["$key"] = item.payload.key;
+          this.SliderurunData.push(temp);
+        });
+      });
+  }
+
+
+  detay(key) {
+    this.navCtrl.push("UrunlerDetayPage", {
+      id: key
     });
   }
   goToSlide() {
@@ -73,15 +91,15 @@ export class UrunlerPage {
 
   navigate(id) {
     console.log(id)
-    this.navCtrl.push("UrunlerListPage", { id: id });
+    this.navCtrl.push("UrunPage", { id: id });
   }
   
   kategori(){
     this.navCtrl.setRoot("UrunlerMenuPage");
   }
-  detay(id) {
+ /* detay(id) {
     console.log(id)
-    this.navCtrl.push("ÜrünDetayPage", { id: id });  }
+    this.navCtrl.push("ProductDetailsPage", { id: id });  }*/
   navcart() {
     this.navCtrl.push("CartPage");
   }

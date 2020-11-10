@@ -1,7 +1,10 @@
 <ion-header>
-    <ion-navbar>
-        <ion-title class="anabaslik">{{"ÜRÜNLER" | translate}}</ion-title>
-    </ion-navbar>
+  <ion-navbar class="ana-baslik" hideBackButton="true">
+    <button ion-button menuToggle>
+      <ion-icon class="icon" name="menu-sharp" item-left></ion-icon>      </button>
+    <ion-title class="hesabım-title">{{"ÜRÜNLER" | translate}}
+    </ion-title>   
+</ion-navbar>
 </ion-header>
 
 <ion-content>
@@ -12,7 +15,7 @@
           <ion-slides pager initialSlide=0 speed=2000 loop=true dir="rtl">
             <ion-slide  *ngFor="let item of SliderurunData" (click)="detay(item.$key)" >
               <div class="overlay">
-                <img src={{item.img}} class="slider-img">
+                <img src={{item.thumb}} class="slider-img">
                 <a class="slider-text">{{item.title}}</a> 
                 
               </div>
@@ -20,12 +23,20 @@
           </ion-slides>
         </ion-row>
         <!-- first row -->
-        <!-- second-row -->
-    
-    
+        <!-- second-row
+        <ion-list>
+          <ion-item *ngFor="let mesaj of newsData" (click)="mesajDetay(mesaj.$key)">
+              <ion-thumbnail item-left>
+                  <img src="{{mesaj.img}}">
+              </ion-thumbnail>
+              <h2>{{mesaj.title}}:- </h2>
+              <p>{{mesaj.description | limitPipe:50}}</p>
+          </ion-item>
+      </ion-list>
+     -->
         <ion-row  class="categories">
           <ion-col class="ürün" col-6 *ngFor="let urun of SliderurunData" (click)="detay(urun.$key)" >
-              <img class="foto" src="{{urun.img}}" />
+              <img class="foto" src="{{urun.thumb}}" />
               <p class="text-over-img">{{urun.title}}</p>
           </ion-col>
         </ion-row>
