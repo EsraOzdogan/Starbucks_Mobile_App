@@ -1,22 +1,33 @@
 <ion-header>
-    <ion-navbar class="ana-baslik" hideBackButton="true">
-      <button ion-button menuToggle>
-        <ion-icon class="icon" name="menu-sharp" item-left></ion-icon>      </button>
-      <ion-title class="hesabım-title">{{"MAĞAZALAR" | translate}}
-      </ion-title>
-      <ion-row>
-        <ion-icon class="filter" name="filter" item-center></ion-icon>
-        <ion-icon class="list" name="list" item-right></ion-icon>
-      </ion-row>
-    </ion-navbar>
-  </ion-header>
-  
-  <ion-content no-scroll padding>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12059.627538977893!2d29.1762422!3d40.9177875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea9cfde34349ea41!2sAnatalium%20Starbucks!5e0!3m2!1str!2str!4v1600696487260!5m2!1str!2str" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
-  </ion-content>
-  
-  
-  
-  
-  
-  
+  <ion-navbar class="ana-baslik" hideBackButton="true">
+    <button ion-button menuToggle>
+      <ion-icon class="icon" name="menu-sharp" item-left></ion-icon>      </button>
+    <ion-title class="hesabım-title">{{"MAĞAZALAR" | translate}}
+    </ion-title>
+    <ion-row>
+      <ion-icon class="filter" name="filter" item-center></ion-icon>
+ 
+      <ion-select [(ngModel)]="value" (ionChange)="filtrele()">
+        <ion-label>{{"Mağazaları Filtrele" |translate }}</ion-label>
+        <ion-option *ngFor="let option of options"> {{option.language }}
+        </ion-option>
+      </ion-select>
+        
+      
+      <ion-icon class="list" name="list" item-right></ion-icon>
+    </ion-row>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-scroll padding>
+  <ion-searchbar  class="search" (ionInput)="getItems($event)" placeholder="{{'Mağazaları Ara...' | translate}}">
+  </ion-searchbar>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12059.627538977893!2d29.1762422!3d40.9177875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea9cfde34349ea41!2sAnatalium%20Starbucks!5e0!3m2!1str!2str!4v1600696487260!5m2!1str!2str" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0">
+  </iframe>
+</ion-content>
+
+
+
+
+
