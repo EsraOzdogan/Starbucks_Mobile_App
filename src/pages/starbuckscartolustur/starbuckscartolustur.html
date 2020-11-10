@@ -1,37 +1,36 @@
 <ion-header>
-    <ion-navbar class="ana-baslik" hideBackButton="true">
-      
-    </ion-navbar>
-  </ion-header>
-  
-  <ion-content  class="background-image" no-scroll padding>
-    <ion-list >
-  
-      <p class="yazı">{{ "Halihazırda Starbucks Card'ınız varsa, önceki ekranda kaydedebilirsiniz!" | translate}}</p>
-  
-  
-  
-    <ion-row>
-      <ion-col>
-          <button class="geribtn" (click)="geri()">{{"GERİ" | translate}}
-          </button>
-      </ion-col>
- 
+  <ion-navbar class="ana-baslik" hideBackButton="true">
+    
+  </ion-navbar>
+</ion-header>
+
+<ion-content  class="background-image" no-scroll padding>
+  <ion-list >
+
+    <p class="yazı">{{ "Halihazırda Starbucks Card'ınız varsa, önceki ekranda kaydedebilirsiniz!" | translate}}</p>
+
+
+
+  <ion-row>
     <ion-col>
-        <button class="devametbtn" (click)="devamet()">{{"DEVAM ET" | translate}}
+        <button class="geribtn" (click)="geri()">{{"GERİ" | translate}}
         </button>
     </ion-col>
-  </ion-row>
-  </ion-list>
+
+  <ion-col>
+      <button class="devametbtn" (click)="devamet()">{{"DEVAM ET" | translate}}
+      </button>
+  </ion-col>
+</ion-row>
+</ion-list>
 </ion-content>
 
 
 
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
