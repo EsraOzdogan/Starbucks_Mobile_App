@@ -3,17 +3,17 @@ import { Nav, Platform, Events } from "ionic-angular";
 import { StatusBar } from "@ionic-native/status-bar";
 import { SplashScreen } from "@ionic-native/splash-screen";
 
-import { AngularFireAuth } from "@angular/fire/auth"
+import { AngularFireAuth } from "@angular/fire/auth";
 import { AngularFireDatabase } from "@angular/fire/database";
 
 import { OneSignal } from "@ionic-native/onesignal";
-import { SocialSharing, } from "@ionic-native/social-sharing";
+import { SocialSharing } from "@ionic-native/social-sharing";
 import { TranslateService } from "@ngx-translate/core";
 
 @Component({
   templateUrl: "app.html",
   selector: "MyApp",
-  providers: [StatusBar, SplashScreen, OneSignal,SocialSharing]
+  providers: [StatusBar, SplashScreen, OneSignal, SocialSharing]
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
@@ -22,6 +22,8 @@ export class MyApp {
  // imageUrl1: any = "assets/img/onthego.png";
   rootPage: string = "HesabımPage";
   public uid: string;
+  noOfItemsInNews: any;
+
 
   constructor(
     public af: AngularFireAuth,
@@ -29,6 +31,7 @@ export class MyApp {
     public platform: Platform,
     public statusbar: StatusBar,
     public splashscreen: SplashScreen,
+    public socialSharing: SocialSharing,
     private oneSignal: OneSignal,
     private events: Events,
     private translateService: TranslateService
@@ -36,6 +39,18 @@ export class MyApp {
     this.initializeApp();
   }
 
+  
+
+  private useTranslateService() {
+    let value = localStorage.getItem("language");
+    let language = value != null ? value : "en";
+    language == "ar"
+      ? this.platform.setDir("rtl", true)
+      : this.platform.setDir("ltr", true);
+    this.translateService.use(language);
+  }
+
+  
   ngOnInit() {
     this.uid = localStorage.getItem("uid");
     if (this.uid != null) {
@@ -57,6 +72,8 @@ export class MyApp {
         });
     }
     this.listenEvents();
+    this.useTranslateService();
+    this.getNewsCount();
   }
 
   private listenEvents() {
@@ -105,6 +122,15 @@ export class MyApp {
         }
       });
     }
+  }
+
+  private getNewsCount() {
+    this.db
+      .list("/mesajlar")
+      .valueChanges()
+      .subscribe(res => {
+        this.noOfItemsInNews = res.length;
+      });
   }
 
   ayarlar() {
