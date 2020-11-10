@@ -74,7 +74,7 @@ export class UrunlerMenuPage {
   }
 
   navigate(id) {
-    this.navCtrl.push("ProductListPage", { id: id });
+    this.navCtrl.push("UrunPage", { id: id });
   }
 
   navcart() {
