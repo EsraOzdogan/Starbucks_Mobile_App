@@ -1,79 +1,92 @@
 page-starbuckscartnedir{
-    .baslik{
-      background-color: initial;
-    }
-      .giris {
-        background-color: black;
-        background-size: cover;
-      }
-      
-      .aktivasyon-text{
-        margin-top: 45px;
-        font-size: large;
-        font-weight: bold;
-        color:black;
-      }
-    .yazı{
-      color: white;
-      margin-left: 7%;
-      margin-right: 7%;
-      text-align: center;
-      margin-top: -2%;
-    }
-    .text{
-        margin-top: 0px;
-        font-size:large;
-        margin-left: 18%;
-        font-size: bold;
-        color:#F7DC6F;
-    }
-    .scroll{
-    height: 100%;
-    width: 100%;
+  .baslik{
+    background-color: initial;
   }
-  
-.img{
-    width: 20%;
-    height: 0%;
-    margin-top: 7%;
-    border-radius: 5%;
-    margin-left: 38%;
-  }
-  .yazı2{
-      color: white;
-      font-size: x-large;
+    .giris {
+      background-color: black;
+      background-size: cover;
+    }
+    
+    .aktivasyon-text{
+      margin-top: 45px;
+      font-size: large;
       font-weight: bold;
-      margin-left: 15%;
-
-
-
+      color:black;
+    }
+  .yazı{
+    color: white;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+    margin-top: -2%;
   }
-  .yazı3{
+  .text{
+      margin-top: 0px;
+      font-size:large;
+      margin-left: 18%;
+      font-size: bold;
+      color:#F7DC6F;
+  }
+  .scroll{
+  height: 100%;
+  width: 100%;
+}
+
+.img{
+  width: 20%;
+  height: 0%;
+  margin-top: 7%;
+  border-radius: 5%;
+  margin-left: 38%;
+}
+.yazı2{
     color: white;
     font-size: x-large;
-    margin-left: 58%;
-    margin-top: -14%;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-  }
-  .tamambtn{
-      color: gray;
-      margin-left: 5%;
-      background-color: initial;
-      margin-top: 10%;
-      font-size: large;
-      padding-left: 35%;
-      padding-right: 35%;
-      border: 2px solid gray;
-      padding-top: 3%;
-      padding-bottom: 3%;
-      border-radius: 10%;
-    }
-    .a{
-        margin-top: -3%;
-        color: black;
-        border-bottom: 1px solid white;
+    font-weight: bold;
+    margin-left: 15%;
 
-    }
+
+
 }
-    
+.yazı3{
+  color: white;
+  font-size: x-large;
+  margin-left: 58%;
+  margin-top: -14%;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+}
+.tamambtn{
+    /*color: gray;
+    margin-left: 5%;
+    background-color: initial;
+    margin-top: 10%;
+    font-size: large;
+    padding-left: 35%;
+    padding-right: 35%;
+    border: 2px solid gray;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 10%;
+*/
+
+    width: 105%;
+    height: 135%;
+    margin-left:0%;
+    background-color: initial;
+    border-radius: 7%;
+    //transform-box: 2px;
+    font-size: 20px;
+    margin-top: 5%;
+    font-weight: lighter;
+    color:gray;
+    border: 2px solid gray;
+  }
+  .a{
+      margin-top: -3%;
+      color: black;
+      border-bottom: 1px solid white;
+
+  }
+}
+  
