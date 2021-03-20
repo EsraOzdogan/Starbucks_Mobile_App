@@ -1,0 +1,1121 @@
+{
+  "business" : {
+   
+  },
+  "coming" : {
+    "1d4aa3b29bca735e4et5" : "İÇECEKLER",
+    "1d4aa3b29bca735e4et6" : "YİYECEKLER",
+    "1d4aa3b29bca735e4et7" : "ÇEKİRDEK KAHVELER"
+  },
+  "contact" : {
+ 
+  },
+  "coupons" : {
+    
+  },
+  "currency" : {
+    "-LLd7h_Y3PsGYSB-ZBlH" : {
+      "currencyName" : "TL",
+      "currencySign" : {
+        "symbol" : "₺"
+      }
+    }
+  },
+  "delivery-options" : {
+    "-LK_kREcILq7tmGSMdGk" : {
+      "pincode" : 12333
+    }
+  },
+  "icecekler" : {
+    "i1" : {
+      "title" : "Espressolu İçecekler"
+    },
+    "i2" : {
+      "title" : "Filtre Kahveler"
+    },
+    "i3" : {
+      "title" : "Frappuccino"
+    },
+    "i4" : {
+      "title" : "Çaylar"
+    },
+    "i5" : {
+      "title" : "Sıcak Çikolatalar"
+    },
+    "i6" : {
+      "title" : "Refresha"
+    },
+    "i7" : {
+      "title" : "Türk Kahvesi"
+    }
+  },
+  "kahveler" : {
+    "k1" : {
+      "title" : "Blonde Roast Kahveler"
+    },
+    "k2" : {
+      "title" : "Medium Roast Kahveler"
+    },
+    "k3" : {
+      "title" : "Dark Roast Kahveler"
+    },
+    "k4" : {
+      "title" : "Starbucks Espresso Kapsülleri"
+    }
+  },
+  "loyalitys" : {
+    "enable" : true,
+    "loylityPercentage" : "56",
+    "minLoyalityPointes" : 15
+  },
+  "menuItems" : {
+    "espresso1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i1",
+      "description" : "Tatlı krema ile süslenmiş,zengin karamel tatlılığı.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 15
+      } ],
+      "thumb" : "data:image/jpeg;base64,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",
+      "title" : "Espresso Con Panna"
+    },
+    "espresso2" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i1",
+      "description" : "Zengin lezzeti & Karamel tatlılığıyla sizin için özenle kavrulmuş espresso.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 15
+      }, {
+        "pname" : "Büyük",
+        "value" : 20
+      } ],
+      "thumb" : "data:image/jpeg;base64,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",
+      "title" : "Espresso"
+    },
+    "espresso3" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i1",
+      "description" : "Buharla ısıtılmış süt ve köpikle ortaya çıkan eşsiz espresso lezzeti.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 18
+      } ],
+      "thumb" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIREhUSExIVEhUVEBUPEBUVFRUQFRUVFRIWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFRAQGi0dHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAACAwABBAUGB//EAD4QAAIBAgMFBQUGBAUFAAAAAAABAgMRBCExBRJBUWETInGBkQahscHwFDJC0eHxBxUjUnKCkqLCFjNTYpP/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQIDBP/EACMRAQEAAgICAwACAwAAAAAAAAABAhEDIRIxE0FRYXEEIjL/2gAMAwEAAhEDEQA/APEspRDSKZk6FOIvMcmGogTPmHFj+zKUACtwrsxiRdgMtRDiglEOKA1IpoIuw0lphxLUQ4xAQdNDooCCHRAxRRopoSkNgwB6iEkVBhMBpaYcWJCTAxsXJBplsD02bOpJ2NuOg4RyOVgsVuS6XzPURqQqwt0yCRGTxVaO9mFhoO+R18ZhN1sz4SyuZ26VOy92RDR2yIHkNPDuIFh6C7MqCs6iMSGKJe4BFxYRUo2A3gOQbJGQuUwI3A+mxIqwNO7ySu+S+shyp2+8/JZ+snl8ST6L3Q4U29E34Jv4GqilwivF973v5GyNOT1Y9kwRwU3+F+do/FlrCT5f7o/mbnR6suNJDJmhg5v8P+6P5jHgqqzdOduai2vVZGjsUXGm45xk0+jsAY4sOJteLn+NRqr/AN0pS/1feXqPpYKjV+5Ps5/2SzXlfP3scKuepDIzGYvZ9Sl96OXNZx9eHmZt0YOuEkJQ2MgG1sq4drldmIyzXg8U4PoZt0psY07NTFbyOX21mxar2yFSV8zHP2rGH9uQybjIZ7rXUcZDULig2zoc9glELIS6omVViPR9RCJxAlUZE2wNLHotnez1odriG6cEr7v43yVuDZ2/4fezKnCWNrLuQbVGL0lNazfRfFPkcP2n2q69RpPuRbUVzfFjvUTvd1GDGYuLdqcVCPBa+r4sCjSbzYqjA3YeNyF60fQyNcZC4UhkEOJq2wLhsqyKJFIJyKVipNBaciropxRasHFEq02YPa04Ldl/UhpZ6pdH8mbHs2nXW9QaUv7Hkr/8X7vA48oF4etKnJSi7NfVi5UXH8BiqM4ScJxcZRdpRas0LVz2EKcdoQzdq0I2i3xtpF81y5Hl5xs2mrNOzT4NcB2FLshTYe+VKQqVUDFKQmowZVxFXEBobPi7muhE4NTFtGnB4/qTljs5dOx2ZZk+3dSzP48lfJHCSGWEXLuXorYZKCAUCbxamUnaSgi6ULtJatpLzKcx+BklUpt6KpFv/UhB9U9oMQsNs6FGnlamoPxevxZ8rcT6J7a1E4NLJOMZLyR89nkGftPF6DQepqhIy03mOgm3ZJt9MyGzV9oI6xcdm1Hqre9+iGfy18X8hXPGfZSUEawSqgywsVrNeqB3Y/3r0J+XH9V4ZHqZadxLpcpJ+4pNx1VvrmVM8b6pWWe41xQymZlUNFJlFs6wupEdFFyjkWm0nZ20ZUKsZJ24S8Gdb2ppR3o1o6VI3l/iWpwcVTszq4yrv0Er3UUrdHxKnrTPLrKVyKk0Zqky5ipoNK2RVkIeZpcAVTDRbYa8DFKbWh1cRE5laItK2H7VIguxA7HTfNEaGzRLCImMWRxHtAxQyJGRYbpldmFOV9D2piXiMFTnCN5042n4WzPETzPT+zWM3Fuv7slZoftX2fjvqpFdzWaXLkTe5ssf9br9ef2XsiVTvvuw58X4HXnVp0k4043aV3bPlq+OqMG2NrNqUKdoqNo8nyyRzK+0JySUVu93dk027p82/rM4cs8s/wCHbjxye2nae16sZuCSVuPTmc6VepPVviaMPgJPW7er/U6dLZ9ssnkveOYye1b/ABxoUG+o6nglL6sehw+BT4GqWyms1G/TiTcsT7cPsYpWWbte92FQhfR3v1uaauwv6jnvSgm4uajZ7zi7pNu7S4WVlkbHgo9cuvG2QWY/RS1kp4BS4qL9Ap4GcFe11zWZqhQa4e766m3C1pJ2WfFrX1LxzuKMsJXIp1RizOviNjxqx3qb3Z27yejflocmCak4yTTTs0zqwzmTnyxsJxsNPBkrRdOjbi9fr1NOIcYx3pPTRczkYjGOo23pwNZ0xvd/pnlMFZgSYVMFGxiXOIcS5IAwV4mCrSOrVRjqxAOf2JZp7MgAbpspD5ZCrkRRci4IYoloZaUsiyNlxGWtO1s591eB6TZW1lHuzzWh5nZz7pruZb1emvjLO3e2xsGhiI70LKXQ87HYvZXTXQ1Ua81nGTR1MNipSXfjcjLLG++lYzLH+nNw+DnL8Nl6HSwmzUuF3z6nYwkY2eWbKqUJq9lc58+PK+rtrOSf0TSwyXA62HwilHQybNh3v6isjrVto01lBbouL/Ht7y6Rycv1AU9lp5WQNT2cg73WruzRQ2xBDam2YPidM4MNdsryZuBiNhKF3Gb9LmGph3D70bpWStn7nqdzEbXhwu/I42L2tJvu02Z5cer00x5Lfar7lnpyelzFt6pTcO0ut9K2XERtOpXrqzXZxTu7amV0IqEku8916+BUuGF3OxZlnPxwMfiZSSvq9FyBpLumevK8/BDnodEu6xskiNDKVhCG0mWk2QEpDVEGcQDNUkZZM11ImaSAwWIEQAZN5AIpsuCMmkiWCSRLEcQguoBokYhpFbxURe3X2TC8H0lY1xjqY9iV1HeUtHY6NXBVZwlKnbz1MrLtpLJBUI52PTbIorK6PJbNjiKtSNJJJrLxPX7PvCXZzW7Je/qhZ4asv0U5PKWfbrwwseRrp4QXRN9EvHGM8sqCGFXICpgYvgbUyzXURuuZ/Locgv5dD+03SQAag3WV7PhyQqpg48ka5zEVJ5GWcml42vPbYikmorPQ8tGVm0z1m2N22WT5njMfU3YTfRnHrt2Y/wDLz0FeTfXI0uJnwqtZc8/1NE2d+DlyDuhRAlIBTKTttpoqpGwlVAXWA0m0J3UwpO4tuwyTcID2hA0OmnsQ3BCJYjkxLxBjq1puQ6aAcRSmS5cTR1HkZY1pSkowjfmd3YuzVUTlLQ10KNOE2oovx6Z+XenS2bs9RpKSjvNK7QOK2vFtKPddrNHvPYzApUpSlFd58eR8427Xw88bVhTku7JrLR2ydhamM7G7lenf2LiacK1Gq8s2p+j+Z0faHaMKlWNWm7pdy60fPM83hasJRVOXdV9Tvzp04YdU1bdT3t7i+JnLPGxVmXnK6mDxiaWZ06eIXM+dPaG7Luz6Guhtqa6mM5Li2vFt79Ygt4hHiobffG42G3Lhecvgr132gCpWPKS2yDPbDF81P4Xo6mKRhxW0bLU4VXaMnwOXjMfGOc6iXS5ncrWk45G3aOMdR65Hn9t4iEIWlq/w8XxzMG0faeKuqS/zP5HlsXjnNtyd3zZWHHdnlnJNOzgK7nKUn4LobnI5exf+3vc5P0WRvudsmo5Ld1JFRCtcYojGgXKcRkkC0A0FSsBVdyTQEpAQbFg3IMiowYbRFUSDVZmdq5j+hiuhclxDrVOKM9SbCbtPqR6DB7S3KNo53PZfw79mo1Y/aay3k3/Si9HZ5yfQ+fYandRjxlJRXm7H3CjjqWFwsXJbkYU/upclwNZ2xs16eW/idtp4aMaFGW5OdNt7uVo6J+Z8LqVJRlvJtNO9+J7Lb20pYuvOvP8AE+6v7YrKMV4I8fjIWbXUm3dXjNR6DZXtGpWjVylopcGeir7VnKG6nl0Pl0xuF2rVpaSuuTzRllx/jSZ/r2dST1vxF/apLSTORT29GS763fehv2uMtJJmdx/VzJ0ltiouNwv+oprgjh1JmapVF4RXk9HL2mqckJqe01Xg0jzU6wp1WP44Xm7eI27VlrN+WRzquMb1dzBOr1M88SuGZpjxovI21MQZnV3nbgZJVG9TZs2lvTiubRpMdMrlt7XZ9DdpwXKK9+Y+UQIzLbGYlMp1AXEjQAW+VvCpEUg0NrnmLcRjBaAAsQhALQW+hFIplRRMxVctmxqCpZsONvUpsei26WyX/Wp30Uk/Q9N7Z+0Ep01STy0fgeSg7WaKxtbflmEKxm7Q5O0495vmrnasuhz9q08k/FAI8/VM89TVXiZpc/IYSX3fQRe2g+TyfkZ2MjFiZr8TI8XPmJZTDUG6a8RLmBKq+Ytsg9QbXcopsiAhRO57O07zvyV/kcSCPS7ASjFyfF2Xl+4qcd1MOOZn7RBLEpAbWCwKdW4d2SoLiC4huRGMAEykaN4TUaAi94hLlAQU4vmgoRXP9RW7fow4Q6k6Vv8Ag1U1bevnyKcLrXTQpxtoEoOwdjcMw9XLwM9Wr3wZJxfQuFPeY4m09p20E4qLcGuSugu14PhlyFYrEQUJJ1oUpWW5vqbTzz+5FtZXzDVG57BhdhSqUe0aUY5tSk7XS4J/M4OKotK0e8vxZK6lbvLyPpGG9rITwqp7lGzh2V4b8oxtZN7slF5LPieK2jh3VqNxfek2oyVop20vH8OVllzLsiJbXnt4Wz0XtP7N1MDKEalpb9NVN5JpZ3yaejyfQ8+0I97LAYbQDGAkZbKYBREWXBARlKJ6zAuMIRjxt79WcTYmBdWTf4Ka35vhraMfFvhyUnwO6klovmChSqdA6cW82hba4MdTl1EGylaxHLqBFrpcYqbfgJYN4rf6F7pah1AlOQMxjpWFzpgNFWIFulBsaFaL45/XEjt42BaYUREuNw92/wAweBW7pYBFzkrWsvixMrxzQ3P3WK04J+P7hBWOrO7zyBxkI9nvN6LNPO/gNxNBT6eAtYaO7uye9FrPx6FJ083OtneLceKtwPa/w+rwrV26ypqFOO+t5uEZVJNKNmtLPO2h5fF7Lz7juuTN2yqFeG6u0w1GN73q1ILz3E9+XgkAvp7r+KCjisJDGQpzhuyp0q2jgnKCsk9WlJuPjI+TyPse2NswqbP+xUrYuc3TUq0IunTUlUjLetJardueGxPspCtVcMJiKFWW/uqmqiir30jOdoteDfiOxOF1O3j5As7O1/ZjG4VtV8LWpW1k4OUPKpG8X6nGuJQGimGy4UJSyUWxgtGvZ+CnWluxXi3ovH8jZhdlQWeIr06S/tUlVqP/ACU7tedj0ez9uYTC3kqO+oL+nTn3XUnwdSKvu09Lpvelpa12npOyZ7tCCoRTUV/UbeTnJr78vLRcF6tVOStm7GOpjZ4iUq1RqU5z3pu1rt8lwSySS0SSGKPQSo1091aSY6nNN2u7GOM8tLlU6jT/AEuButCa4L4BQqc/nYyqtc0U5O3QWlbMlUVhcanUtyXQCb5NCBjq+IqrJi+0bI6nQDDchfb9PiQC6Ncr/oS3iBf9Bkb87euQhpcchsZvhZdRKRblbiIRc35iqhbd+IuSHAq9hbVxksvr4lynfh8PMZM7+tDNiaaeadmtH4m5pP8AYTOPT4L3XAPP1Iyi3m81Z34rk+gdDEtNHWrU1JZo5lfCW0DZaer2P7eY3DxtSxT3V+CdqkbeEk/cZ9t+2Ecc74rDU3JKyqUW6EvR70X6Hk5UmLk7FeVT4x0nPC/2Vv8A6Qfwggt/Bf8AhrS6SrK3uhf3nIdQBzfAN0ajq19o04xtTpRhyes+S733vec2dVzd3ZLglkhcYN5sdGIBvwMsrGyLz/Ux4HU2xi7/ALAehZ/mNp022sreFkLhfl8jfDu8be/4AeluNtcvQOU3bJ24O1gd+PP3L4/qBB5/TEY41F9Zhyn0t4tiXDP88g4+P14gYW8woIqrR8b+BbbWTz8LIAhAu16e5fkWASKzef14jKSz4i593J6/D8xkZJIgCqtPhb3i5Lw9SnLUCVwNad1r8C28gN21vAFt63GXa6n6iv39wvfb42fksuJEkuL+PzGRiKlL0LU0ll6inLp7v3EBRkrX/cz1JX4DHNvp6FSkKqkY61DoZZ4c3TzE1AlOxhdDwKjRv0NdS1vP5Cyto0T2X1oXuDbMtQuAFhkdWmtL3ObSjZ/kdKhFvQYNp9PkG1xb9dQY0m3xbNNPBu13lfnkAJjLks/C45UnLO9vDLPyJ2VtG34Oxad/0s2BqnFdOhE0i3C365Bwt9fsIEuTfy4C5N8zTLw+QqpT+tAGiSDOyZBlocA5cCEIp/ZcuA6Oq8V8SiAoFf5oVIhAgrNXAgWQqekZewz+XyDn9eqIQlZfD1+QFX8iEEomQNbh/hIQcTQwKjr6fBEIXGd9qf17yiEEZ0DfS4eRCAHTwWnn/wAWaq3yLIFVGWpq/rgZqnD64kIAMjp6fIJafXMhBCJT+QNb7q+uJZAH0hCEKJ//2Q==",
+      "title" : "Espresso Macchiato"
+    },
+    "fkahve1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i2",
+      "description" : "Taze demlenmiş, dengeli & yoğun bir filtre kahve deneyimi.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 15
+      }, {
+        "pname" : "Büyük",
+        "value" : 17
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/5f858a12081b4adaaa25ceed353bce04_tcm95-19055_w1024_n.jpg",
+      "title" : "Filtre Kahve"
+    },
+    "fkahve2" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i2",
+      "description" : "Taze demlenmiş,dengeli & yoğun filtre kahve deneyiminin sütlü sunumu.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 25
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/Caffe-Misto_tcm95-1988_w1024_n.jpg",
+      "title" : "Caffè Misto"
+    },
+    "frapkahve1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i3",
+      "description" : "Kahve ve sütün buz parçaları ile keyifli buluşması.Starbucks'a özel Frappuccino lezzetlerinden biri.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 15
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/954e8b7ff42d4b0caed573f9bf59313d_tcm95-19061_w1024_n.jpg",
+      "title" : "Coffee Frappuccino"
+    },
+    "frapkahve2" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i3",
+      "description" : "Espresso ve sütün buz parçaları ile keyifli buluşması.Starbucks'a özel Frappuccino lezzetlerinden biri.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 20
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/espresso-frappuccino-blended_tcm95-11341_w1024_n.png",
+      "title" : "Espresso Frappuccino"
+    },
+    "frapkahve3" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i3",
+      "description" : "Kahve, süt ve karamel şurubunun, buz parçaları ile keyifli buluşması.Starbucks'a özel bu  Frappuccino lezzeti krema ve karamel sosu ile süslenerek sunulur.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 18
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/2fd8d8b97770414fbbcbd6ffe7371e83_tcm95-19062_w1024_n.jpg",
+      "title" : "Caramel Frappuccino"
+    },
+    "frapkahve4" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i3",
+      "description" : "Kahve,süt ve mocha sosunun buz parçaları ile keyifli buluşması.Starbucks'a özel Frappuccino lezzetlerinden biri.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 21
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/de4bbda9049a43bc9a75a96ad3e155e4_tcm95-19063_w1024_n.jpg",
+      "title" : "Mocha Frappuccino"
+    },
+    "kahvaltı1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazırlanmasında ortak ekipman kullanılması nedeniyle; hiçbir ürünümüzde herhangi bir alerjen (süt ürünleri, soya, yumurta, kuruyemiş, buğday vb.) bulunmadığı garanti edilmemektedir.",
+      "category" : "y1",
+      "description" : "Domates ve beyaz peynir Kepekli Puf'un içerisindeki benzersiz buluşması.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 20
+      } ],
+      "thumb" : "https://www.diyetkolik.com/site_media/media/nutrition_images/puf.jpg",
+      "title" : "Kepekli Puf"
+    },
+    "kahvaltı2" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazırlanmasında ortak ekipman kullanılması nedeniyle; hiçbir ürünümüzde herhangi bir alerjen (süt ürünleri, soya, yumurta, kuruyemiş, buğday vb.) bulunmadığı garanti edilmemektedir.",
+      "category" : "y1",
+      "description" : "Domates,peynir ve tulum peynirli yumuşacık poğaça keyfi",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.diyetkolik.com/site_media/media/nutrition_images/tulum.jpg",
+      "title" : "Tulumlu Peynirli-Domatesli Poğaça"
+    },
+    "kahvaltı3" : {
+      "category" : "y1",
+      "description" : "Haşhaş,zeytin ve cevizli simidin arasında enfes labne peyniri sabahlarınızı tatlandırıyor",
+      "lerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazırlanmasında ortak ekipman kullanılması nedeniyle; hiçbir ürünümüzde herhangi bir alerjen (süt ürünleri, soya, yumurta, kuruyemiş, buğday vb.) bulunmadığı garanti edilmemektedir.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 20
+      } ],
+      "thumb" : "https://www.diyetkolik.com/site_media/media/nutrition_images/peynrili_simit.jpg",
+      "title" : "Peynirli Simit"
+    },
+    "kahvaltı4" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazırlanmasında ortak ekipman kullanılması nedeniyle; hiçbir ürünümüzde herhangi bir alerjen (süt ürünleri, soya, yumurta, kuruyemiş, buğday vb.) bulunmadığı garanti edilmemektedir.",
+      "category" : "y1",
+      "description" : "Buğday ve çavdar ununu leziz peynirle buluşturan bol tahıllı peynirli poğaça",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 22
+      } ],
+      "thumb" : "data:image/jpeg;base64,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",
+      "title" : "Tahıllı Poğaça"
+    },
+    "kahvaltı5" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazırlanmasında ortak ekipman kullanılması nedeniyle; hiçbir ürünümüzde herhangi bir alerjen (süt ürünleri, soya, yumurta, kuruyemiş, buğday vb.) bulunmadığı garanti edilmemektedir.",
+      "category" : "y1",
+      "description" : "Beyaz peynir, haşlanmış nohut ve karabuğday unu harmanlanarak hazırlanmış yumuşacık fit poğaça",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 24
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/karabugdayli-fit-pogaca_tcm95-49858_w1024_n.jpg",
+      "title" : "Karabuğdaylı Fit Poğaça"
+    },
+    "kahvaltı6" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazırlanmasında ortak ekipman kullanılması nedeniyle; hiçbir ürünümüzde herhangi bir alerjen (süt ürünleri, soya, yumurta, kuruyemiş, buğday vb.) bulunmadığı garanti edilmemektedir.",
+      "category" : "y1",
+      "description" : "Üzeri haşhaş dekorlu, içerisinde yeşil mercimek ve cevizli harç bulunan ev tipi poğaça",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 18
+      } ],
+      "thumb" : "https://pbs.twimg.com/media/DsbbK2QWsAUjB8g.jpg",
+      "title" : "Mercimekli Poğaça"
+    },
+    "kahvaltı7" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y1",
+      "description" : "Özel peynir soslu,füme hindili;İtalyan muutfağından leziz hamur işi.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/hindi_fume_tcm95-56609_w1024_n.jpg",
+      "title" : "Hindi Füme Stromboli"
+    },
+    "kahvaltı8" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y1",
+      "description" : "Günün her saatine yakışan zeytinli açma, yeni tarifiyle daha da lezzetli!",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 19
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/zeytinli_tcm95-19142_w1024_n.jpg",
+      "title" : "Zeytinli Açma"
+    },
+    "kek1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y5",
+      "description" : "Havuçlu kek katları arasında peynirli krema bulunan ve caviz parçaları ile süslenmiş kremalı havuçlu kekimizden vazgeçemeyeceksiniz.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 12
+      }, {
+        "pname" : "Büyük",
+        "value" : 15
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/h_kek_tcm95-56052_w1024_n.jpg",
+      "title" : "Kremalı Havuçlu Kek"
+    },
+    "kek2" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y5",
+      "description" : "Hurma püresi, keçiboynuzu ve cevizle hazırlanmış leziz ve hafif bir brownie.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 15
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/hurma_fit_tcm95-56611_w1024_n.jpg",
+      "title" : "Hurmalı Fit Brownie"
+    },
+    "kek3" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y5",
+      "description" : "Elmalı ve kuru üzümlü, cevizle süslenmiş fit kek.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 18
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/elmali-fit-kek_tcm95-59735_w1024_n.jpg",
+      "title" : "Elmalı Fit Kek"
+    },
+    "kurabiye1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y6",
+      "description" : "Bitter, sütlü ve beyaz çikolata parçalı tereyağlı kurabiye lezzeti.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 14
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/0f0dd08e9ecd417bbae93598c741f38e_tcm95-19171_w1024_n.jpg",
+      "title" : "Triple Chocolate Cookie"
+    },
+    "kurabiye2" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y6",
+      "description" : "Kavrulmuş fındık ve bitter çikolata parçalı bir mutluluk durağı.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 25
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/7f66f573f4534857b4ef9817516617ff_tcm95-19172_w1024_n.jpg",
+      "title" : "Misto Cookie"
+    },
+    "kurabiye3" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y6",
+      "description" : "Kuru meyvelerle ve hurma püresi ile tatlandırılmış bademli yulaflı kurabiye",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 15
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/dopdolu-fit-cookie_tcm95-49850_w1024_n.jpg",
+      "title" : "Dopdolu Fit Cookie"
+    },
+    "muffin1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y4",
+      "description" : "Yabanmersini, ahududu ve böğürtlenli egzotik muffin yolculuğu.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/4c2a1cb2249345f5afaece907f909796_tcm95-19167_w1024_n.jpg",
+      "title" : "Very Berry Muffin"
+    },
+    "refresha1" : {
+      "category" : "i6",
+      "description" : "Gerçek meyve özleri,nane ve lime dilimlerinin;yeşil çekirdekkahve özleriyle canlandıran buzlu sunumu.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 17
+      } ],
+      "thumb" : "data:image/jpeg;base64,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",
+      "title" : "Cool Lime Refresha"
+    },
+    "refresha2" : {
+      "category" : "i6",
+      "description" : "Gerçek meyve özleri,böğürtlen ve ahududunun yeşil çekirdek kahve özü ile buluşması sonucu sunduğumuz ferahlatıcı lezzet.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 15
+      } ],
+      "thumb" : "data:image/jpeg;base64,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D9INFuEWvFcefy5mOV6Po/raYcwljcVSThTr1IQd04qV42lfhCSstHysZ+smHu09H4Mm5vX+/kr6tKpNRUqzkoxjTSbatCHswtwaRlbJM93Xg4LBh60pEfHXX692D7OldtWfLr+JTe3XOOs2i2upGjJkbhpDNTrWdidIlOpNPox2VlInDRvoRCu+qFSm278jQmGybEWqIcPE9pdawEbU4L91fI7q9ofG5Z3eUgsoAAAAAAAAAAAABS72006Dv1X1M8vuuzgZmMvRybH4OKd4ta8E7Lx0f4HHL63De3jCveG9pet1qvRorLqiyBVxKbSabXN8kupMVTNtTrTPRajd8Vy8ikxtbu+zoKautGItpKPGNSL0+HA03Eo0nYWlWqcW7dEuPuImYjspM8vdOo4BpK9orxf04kbZ2yx4No3bwcM8VfM7rlZfiXp1l5XG5Lck+Dpx3vlQAAAAAAAAAAAAAFVvOv8AbVHe1kne17WfTmUye66eD/71XLcfhU23a715tX0enh/g4ZfXYr9FNPDq/lzImXZFuj1VhFcY+v4iJlXfTaDLF0ODX56l/V3ck+kMUTraxoJOKcfZ5cDC24nq6q3reImHvsm9bjmW3BHMna/F/wCfMnuTrSwjS0bsIc8266bJugrzg/FfBnRij2nlekelJdEO180AAAAAAAAAAAAAAi7TpuVKaWrs/hqVtG4aYrct4lynHe0+vHgl77rxWvgcMvsMXuwrNEra+7X4FJh1IGKbs15lqrXjdJiPJrNVat216HZ4Pk719pcbDxtu49Fe5z5qeL1/R+XvSfyX8sRC93K358DniHp8ttdIVO0NqPMlR7yXF2vd9LG9McfiVtz8vsxuVvs3abnSUZxtPVSsrJrk0uN7EWrET0ZRjt71m67lUrzjZaJN/n1NMMe08j0nf2J+LezrfPgAAAAAAAAAAAAAPkuDA5JtrERzO91JN2atxTtaz5+44Z7vr+FraadGvV8RRk8sasG1raXdkuXF6P3jknu7aZI5uWe6FilNcFe/NNP5CsOmswhyw6fFNPrYvzTDgz+j65Lc0TpKw2FStZPTwMrXmW2HhceL5rGWzako6QlqummviUierWctI7yx09nQox70ox5tuSXw4l5mbSp6ytY6R0fMHtKgnxlJ8klZe9/2NPVy583EREadP3BnmTaVll1829F8GbY41L5zj7biJ23E2eYAAAAAAAAAAAAAAAaJvNsKFeUrtxld95c/NczG1NzuHscHx1sMa7w51tDc7EU5ucIqpo0sr16cGRbetS9Lh+K4aL8+9T5T/KmxGFqw9qnOPnFmM1enGetu0/RghiGna7+JOpTXLG+rKsdJaKcv6mOVb1kb1o+0Tlos8teWZleUnJXtpNw2xsVU9mhN+MllXvkTWrPNxeKlfatH1bNsTcySalWml+7HV+WbgbRW0/B4/Fek6TGqxt0/drDRpwcYqy00Naxp4Oa836yuSzEAAAAAAAAAAAAAAYFFiIX4lHTWVfVwmt0TtPjtgqYZkNY0jywMXxhF+cU/oRyx5NOe0drT9ZfFs6n/AOuH9Ef7Dlr5Hrcn/lP1llhhbcFbySXyGoRvfeWWOHfQlFtaSKOG6kue3VcbMVmIZ37LMsyAAAAAAAAAAAAAAeZ8GCFfOmVaxLFKiF9scqIJsxOkTpTnk7IjTSLvXZMjS/O+KmTpTnZqVEK72m4aFmSpbsmEswAAAAAAAAAAAAAHxgYJQIWiXhwC23idMQi0vHZEqipBaHvsyq+x0gTLJGARtkhElSZZiVQAAAAAAAAAAAAAADy0B5cQl5cAPmQBkCYfcpCdvuUI2+qINvViUPQQAAAAAAAAAAAAAAAAPlgFgPlgFgksEFgPtgPoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/9k=",
+      "title" : "Berry Hibiscus Refresha"
+    },
+    "s1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y3",
+      "description" : "Haşhaşlı,ekşi mayalı ekmek arasında beyaz peynir, cheddar ve kaşar peynirinin lezzet üçlemesi.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 24
+      } ],
+      "thumb" : "data:image/jpeg;base64,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",
+      "title" : "Haşhaşlı-Üç Peynirli Sandviç"
+    },
+    "s2" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y3",
+      "description" : "Beyaz peynir, kaşar peyniri ve kurutulmuş domatesli panini ekmeğiyle buluştuğu mistik bir yolculuk.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 12
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/6ed27aefc8ab49a6a40579164575f3c7_tcm95-19153_w1024_n.jpg",
+      "title" : "Mistik Sandviç"
+    },
+    "s3" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y3",
+      "description" : "Tavuk, mantar ve kaşar peynirinin yulaflı süslemeli ekmek ile lezzet dansı.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/d582736cebb3495ebe1c4e56e60e76f9_tcm95-19156_w1024_n.jpg",
+      "title" : "Fiesta"
+    },
+    "s4" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y3",
+      "description" : "3 çeşit peynirin eriten lezzeti, reyhan ve domates sosuyla buluşarak tıpkı elinizle yaptığınız tostların tadını yakaladı.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 14
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/reyhanli-peynirli-tost-new_tcm95-38143_w1024_n.jpg",
+      "title" : "PEYNİRLİ REYHANLI TOST"
+    },
+    "s5" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y3",
+      "description" : "Tahıllı haşhaşlı açma içerisinde labne, kaşar, tulum ve emmental peynirli, dana jambon ve füme et.Bu leziz sandviç gününü güzelleştirecek!",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/fume_etli_jambonlu_tcm95-57365_w1024_n.jpg",
+      "title" : "Füme Etli Jambonlu Açma Sandviç"
+    },
+    "salata1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y7",
+      "description" : "Salatasında yüksek protein arayanlara!Bol ızgara tavuklu, toz parmesan ve kırmızı biberli taze mevsim yeşillikleri...",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 20
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/izgara-tavuk-salata-new_tcm95-49795_w1024_n.jpg",
+      "title" : "Izgara Tavuklu Salata"
+    },
+    "salata2" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y7",
+      "description" : "Kırmızı ve beyaz kinoalı,bol yeşillikli vegan salata.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 16
+      }, {
+        "pname" : "Büyük",
+        "value" : 20
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/kinoali-salata_tcm95-59737_w1024_n.jpg",
+      "title" : "Kinoalı Salata"
+    },
+    "sıcakcikolata1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i5",
+      "description" : "Buharla ısıtılmış sütün,mocha sosu ve vanilya şurubu ile buluşmasıyla ortaya çıkan tatlı lezzet.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/a62bae33e2c94f82a2df64d1c5c86c17_tcm95-19059_w1024_n.jpg",
+      "title" : "Classic Hot Chocolate"
+    },
+    "sıcakcikolata2" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i5",
+      "description" : "Buharla ısıtılmış sütün ve tarifi Starrbucks'a özel çikolata sosunun buluşmasıyla ortaya çıkan tatlı lezzet.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 20
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/Starbucks-Signature-Hot-Chocolate_tcm95-4421_w1024_n.jpg",
+      "title" : "Signature Hot Chocolate"
+    },
+    "tatlı1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y2",
+      "description" : "Özel peynir dolgusu ve çikolata sosunun brownie tabanlı kek ile heyecanlı karşılaşması.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.diyetkolik.com/site_media/media/nutrition_images/chess.jpg",
+      "title" : "Brownie Cheesecake"
+    },
+    "tatlı2" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y2",
+      "description" : "Bildiğiniz limon,bilmediğiniz kadar tatlı!Özel peynir dolgusu ve limon sosunun bisküvi taban ile mükemmel uyumu.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 15
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "data:image/jpeg;base64,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",
+      "title" : "Limonlu Cheesecake"
+    },
+    "tatlı3" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y2",
+      "description" : "Bisküvi parçacıklı ve çikolatalıgeleneksel lezzete modern yorum",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.diyetkolik.com/site_media/media/nutrition_images/sekersiz-mozaik-pasta.jpg",
+      "title" : "Mozaik Pasta"
+    },
+    "tatlı4" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y2",
+      "description" : "Pandispanya ve kahve kremasının beyaz çikolata ile buluştuğu fındık parçacıklarıyla kaplı mutluluk formülü.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 20
+      } ],
+      "thumb" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStCOimPI4hux9fHygzEQ1IpBchKhv_UMOl4g&usqp=CAU",
+      "title" : "Kahveli Pasta"
+    },
+    "tatlı5" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y2",
+      "description" : "Belçika çikolatalı krema ve çikolata parçaları ile kalp kakaolu ganaj kek katları;Çikolata ve kakaonun leziz buluşması...",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/belcika-cikolatali-pasta_tcm95-45801_w1024_n.jpg",
+      "title" : "Belçika Çikolatalı Pasta"
+    },
+    "tatlı6" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y2",
+      "description" : "Tereyağlı bisküvi tabanlı, peynir dolgulu, üzeri ahududu sos ile kaplanmış cheesecake.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 24
+      } ],
+      "thumb" : "https://cdn.kisikates.com.tr/image-cache/cache/recipe_main_image_large/https---cdn.kisikates.com.tr/recipe-media/3cb09b027c0812e34f054d1ac67c125d2597805b.jpeg",
+      "title" : "Ahududulu Cheesecake"
+    },
+    "tatlı7" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y2",
+      "description" : "Özel cheesecake kremasının uzun süre pişirildiği ve tabanı olmayan hafif yanık cheesecake.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://pbs.twimg.com/media/ECgMFtyXoAAW25x.jpg:large",
+      "title" : "San Sebastian Cheesecake"
+    },
+    "tatlı8" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y2",
+      "description" : "Üzeri yulaf,pirinç,fındık ve ceviz dekorlu,içerisinde yulaf ezmesi,hurma,keçi boynuzu pekmezi,kakao,ceviz,badem ve fındık bulunan fit mozaik pasta ile hafif bir tatlı kaçamağına hazır mısınız?",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 15
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://lh3.googleusercontent.com/proxy/GrWEsJutC5UXxZJFCdP7N0zc4jaXlGucZw5zPIifXIY01FLDl-hGrYZFKL5m1uFxmKDbVz6xFdLNxcarGsrHt15aMeCsV_fX602s5OMEe_1X2dkAPKyoVFPlgj3jNjoBWyjzPdQtEWeRtIqBrylPL481y3EdpWfA",
+      "title" : "Fit Mozaik Pasta"
+    },
+    "tatlı9" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y2",
+      "description" : "Üzeri yer fıstığı ve karamel kaplı;kakaolu kek dilimleri arası özel yer fıstığı ve çikolatalı krema dolu leziz bir pasta.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://s3-eu-central-1.amazonaws.com/coffee.digital/Images/586e360e742b450984787f70c5092375.jpg",
+      "title" : "Çikolatalı Yer Fıstıklı Pasta"
+    },
+    "tatlı91" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "y2",
+      "description" : "Çikolata parçaları ve antep fıstığıyla süslenmiş yumuşak pandispanya, vanilyalı pastacı kremasıyla profiterollü pasta.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/profiterollu-pasta-new_tcm95-59589_w1024_n.jpg",
+      "title" : "Profiterollü Pasta"
+    },
+    "türkkahvesi1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i7",
+      "description" : "Geleneksel Türk kahvesinin Starbucks Veranda Blend çekirdek kahvesi ile yorumlandığı Türk kahvesi.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 20
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/turk-kahvesi-17_tcm95-19052_w1024_n.jpg",
+      "title" : "Türk Kahvesi"
+    },
+    "çay1" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i4",
+      "description" : "Zengin maltımsı alt notalara sahip günün her saatinde keyifle deneyimleyebileceğiniz koyu siyah çay.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      }, {
+        "pname" : "Büyük",
+        "value" : 22
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/english_breakfast_tcm95-9942_w1024_n.jpg",
+      "title" : "Teavana English Breakfast"
+    },
+    "çay2" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i4",
+      "description" : "Farklı baharatların(kakule,zencefil,tarçın,karanfil,limon otu) siyah çayla mükemmel uyumu.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 10
+      }, {
+        "pname" : "Büyük",
+        "value" : 15
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/Asset-Chai-Tea_tcm95-1367_w1024_n.jpg",
+      "title" : "Teavana Chai Tea"
+    },
+    "çay3" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i4",
+      "description" : "Farklı baharatların siyah çay ve su ile inceltilmesi ardından buharla ısıtılmış kadifemsi süt ile buluşması.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 12
+      }, {
+        "pname" : "Büyük",
+        "value" : 15
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/Asset-Chai-Tea-Latte_tcm95-1369_w1024_n.jpg",
+      "title" : "Chai Tea Latte"
+    },
+    "çay4" : {
+      "alerjenler" : "Mağazamız içerisinde yiyecek ürünlerimizin hazı...",
+      "category" : "i4",
+      "description" : "Farklı baharatların siyah çay ve su ile inceltilmesi ardından süt ile buluşmasının soğuk sunumu.",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 10
+      }, {
+        "pname" : "Büyük",
+        "value" : 15
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/drinks-iced-chai-tea-menu-asset_tcm95-2242_w1024_n.jpg",
+      "title" : "Buzlu Chai Tea Latte"
+    }
+  },
+  "mesajlar" : {
+    "-KzhgrdGrqPZu7OUKowQ" : {
+      "description" : "Taze demlenmiş,dengeli & yoğun filtre kahve deneyiminin sütlü sunumu.",
+      "img" : "https://www.starbucks.com.tr/media/Caffe-Misto_tcm95-1988_w1024_n.jpg",
+      "title" : "Caffè Misto"
+    },
+    "-Kzhh1b7L7HAtv6IxsIw" : {
+      "description" : "Farklı baharatların(kakule,zencefil,tarçın,karanfil,limon otu) siyah çayla mükemmel uyumu.",
+      "img" : "https://www.starbucks.com.tr/media/Asset-Chai-Tea_tcm95-1367_w1024_n.jpg",
+      "title" : "Teavana Chai Tea"
+    }
+  },
+  "messages" : {
+    
+   
+  },
+  "metadata" : {
+    "app" : "videotutorial",
+    "ver" : "0.0.1"
+  },
+  "news" : {
+  
+  },
+  "orders" : {
+    "-L04O5gekHwd0JO6d6lo" : {
+      "cart" : [ {
+        "item" : {
+          "itemId" : "0092by642245498dd9m1",
+          "itemQunatity" : "8",
+          "price" : {
+            "pname" : "waterMelon",
+            "value" : 17
+          },
+          "thumb" : "http://res.cloudinary.com/pietechsolutions/image/upload/v1486575508/zz7hbotx11kmlzqq0tpp.jpg",
+          "title" : "Souvlaki"
+        },
+        "itemTotalPrice" : 136
+      }, {
+        "item" : {
+          "itemId" : "205f2dd0bb71be487fa47",
+          "itemQunatity" : "7",
+          "price" : {
+            "pname" : "Double",
+            "value" : 18
+          },
+          "thumb" : "http://res.cloudinary.com/ionicfirebaseapp/image/upload/c_scale,h_400,w_600/v1483635646/shutterstock_124388140_pcemyn.jpg",
+          "title" : "Grilled Potatoes"
+        },
+        "itemTotalPrice" : 126
+      } ],
+      "couponDiscount" : "10",
+      "createdAt" : 1512992694977,
+      "deductedPrice" : 26.2,
+      "grandTotal" : 272.59000000000003,
+      "loyaltyPoints" : {
+        "-L04PalC6CVtddwt1P06" : {
+          "createdAt" : 1512993090729,
+          "credit" : true,
+          "orderId" : "-L04O5gekHwd0JO6d6lo",
+          "points" : 13
+        }
+      },
+      "orderId" : 77239,
+      "orderView" : true,
+      "paymentStatus" : false,
+      "paymentType" : "COD",
+      "shippingAddress" : {
+        "_id" : "-KzgVj-ZYvTyFbtwV",
+        "address" : "Bangalore,India",
+        "area" : "Axa ",
+        "city" : "Btm ",
+        "mobileNo" : "7999391315",
+        "name" : "Ionic firebase",
+        "pincode" : "560037",
+        "selected" : true
+      },
+      "status" : "Delivered",
+      "statusReading" : {
+        "-L04Pas5kjJj7JWiqRBT" : {
+          "time" : 1512993091177,
+          "title" : "Delivered"
+        },
+        "time" : 1512992698893,
+        "title" : "Your order has been accepted.You will get notified the status here."
+      },
+      "subTotal" : 235.8,
+      "tax" : 11.79,
+      "userDetails" : {
+        "email" : "ionicfirebaseapp@gmail.com",
+        "mobileNo" : "55555555",
+        "name" : "Ionic firebase",
+        "userid" : "612p1cYCree05rKICm5eROjLZZS2"
+      },
+      "userId" : "612p1cYCree05rKICm5eROjLZZS2"
+    },
+    "-L04ORv0xCpeybkZg4l2" : {
+      "cart" : [ {
+        "item" : {
+          "itemId" : "1d4aa3b29bca735e4ee16",
+          "itemQunatity" : "9",
+          "price" : {
+            "pname" : "Large",
+            "value" : 9
+          },
+          "thumb" : "http://res.cloudinary.com/ionicfirebaseapp/image/upload/c_scale,h_400,w_564/v1483684513/carbonated-water_u9jxdq.jpg",
+          "title" : "Greek Traditional Slice"
+        },
+        "itemTotalPrice" : 81
+      }, {
+        "item" : {
+          "itemId" : "1d4aa3b29bca735e4eb13",
+          "itemQunatity" : 7,
+          "price" : {
+            "pname" : "Standard",
+            "value" : 7
+          },
+          "thumb" : "http://res.cloudinary.com/pietechsolutions/image/upload/v1485329667/htgyolpsvm9mqrjvayox.jpg",
+          "title" : "Sandnwich Slice"
+        },
+        "itemTotalPrice" : 49
+      } ],
+      "couponDiscount" : 0,
+      "createdAt" : 1512992785230,
+      "deductedPrice" : 0,
+      "grandTotal" : 161.5,
+      "orderId" : 82898,
+      "orderView" : true,
+      "paymentStatus" : false,
+      "paymentType" : "COD",
+      "shippingAddress" : {
+        "_id" : "-KzgVj-ZYvTyFbtwV",
+        "address" : "Bangalore,India",
+        "area" : "Axa ",
+        "city" : "Btm ",
+        "mobileNo" : "7999391315",
+        "name" : "Ionic firebase",
+        "pincode" : "560037",
+        "selected" : true
+      },
+      "status" : "On the Way",
+      "statusReading" : {
+        "-L04PWFK59_XRXMTH5Hp" : {
+          "time" : 1512993068232,
+          "title" : "On the Way"
+        },
+        "time" : 1512992789924,
+        "title" : "Your order has been accepted.You will get notified the status here."
+      },
+      "subTotal" : 130,
+      "tax" : 6.5,
+      "userDetails" : {
+        "email" : "ionicfirebaseapp@gmail.com",
+        "mobileNo" : "55555555",
+        "name" : "Ionic firebase",
+        "userid" : "612p1cYCree05rKICm5eROjLZZS2"
+      },
+      "userId" : "612p1cYCree05rKICm5eROjLZZS2"
+    },
+    "-L04RTgiaED790clP3jg" : {
+      "cart" : [ {
+        "item" : {
+          "itemId" : "1d4aa3b29bca735e4eb13",
+          "itemQunatity" : "8",
+          "price" : {
+            "pname" : "Standard",
+            "value" : 7
+          },
+          "thumb" : "http://res.cloudinary.com/pietechsolutions/image/upload/v1485329667/htgyolpsvm9mqrjvayox.jpg",
+          "title" : "Sandnwich Slice"
+        },
+        "itemTotalPrice" : 56
+      } ],
+      "couponDiscount" : 0,
+      "createdAt" : 1512993579957,
+      "deductedPrice" : 0,
+      "grandTotal" : 83.8,
+      "orderId" : 94682,
+      "orderView" : true,
+      "paymentStatus" : false,
+      "paymentType" : "COD",
+      "shippingAddress" : {
+        "_id" : "-KzgVj-ZYvTyFbtwV",
+        "address" : "Bangalore,India",
+        "area" : "Axa ",
+        "city" : "Btm ",
+        "mobileNo" : "7999391315",
+        "name" : "Ionic firebase",
+        "pincode" : "560037",
+        "selected" : true
+      },
+      "status" : "pending",
+      "statusReading" : {
+        "time" : 1512993583633,
+        "title" : "Your order has been accepted.You will get notified the status here."
+      },
+      "subTotal" : 56,
+      "tax" : 2.8,
+      "userDetails" : {
+        "email" : "ionicfirebaseapp@gmail.com",
+        "mobileNo" : "55555555",
+        "name" : "Ionic firebase",
+        "userid" : "612p1cYCree05rKICm5eROjLZZS2"
+      },
+      "userId" : "612p1cYCree05rKICm5eROjLZZS2"
+    },
+    "-L04RzlsAKZWFREeEKk2" : {
+      "cart" : [ {
+        "item" : {
+          "itemId" : "0092by642245498dd9m1",
+          "itemQunatity" : "9",
+          "price" : {
+            "pname" : "Waters",
+            "value" : 13.6
+          },
+          "thumb" : "http://res.cloudinary.com/pietechsolutions/image/upload/v1486575508/zz7hbotx11kmlzqq0tpp.jpg",
+          "title" : "Souvlaki"
+        },
+        "itemTotalPrice" : 122.39999999999999
+      } ],
+      "couponDiscount" : 0,
+      "createdAt" : 1512993715394,
+      "deductedPrice" : 0,
+      "grandTotal" : 139.86999999999998,
+      "loyaltyPoints" : {
+        "-L04RzrYG3uD8liymvky" : {
+          "createdAt" : 1512993719486,
+          "credit" : false,
+          "orderId" : "-L04RzlsAKZWFREeEKk2",
+          "points" : -13
+        }
+      },
+      "orderId" : 97980,
+      "orderView" : true,
+      "paymentStatus" : false,
+      "paymentType" : "COD",
+      "shippingAddress" : {
+        "_id" : "-KzgVj-ZYvTyFbtwV",
+        "address" : "Bangalore,India",
+        "area" : "Axa ",
+        "city" : "Btm ",
+        "mobileNo" : "7999391315",
+        "name" : "Ionic firebase",
+        "pincode" : "560037",
+        "selected" : true
+      },
+      "status" : "pending",
+      "statusReading" : {
+        "time" : 1512993719130,
+        "title" : "Your order has been accepted.You will get notified the status here."
+      },
+      "subTotal" : 109.39999999999999,
+      "tax" : 5.47,
+      "usedLoyaltyPoints" : 13,
+      "userDetails" : {
+        "email" : "ionicfirebaseapp@gmail.com",
+        "mobileNo" : "55555555",
+        "name" : "Ionic firebase",
+        "userid" : "612p1cYCree05rKICm5eROjLZZS2"
+      },
+      "userId" : "612p1cYCree05rKICm5eROjLZZS2"
+    }
+  },
+  "settings" : {
+    "currency" : {
+      "currencyId" : "-LLd7h_Y3PsGYSB-ZBlH",
+      "currencyName" : "TL",
+      "currencySymbol" : "₺"
+    },
+    "imageIcon" : "https://res.cloudinary.com/pietechsolutions/image/upload/v1536141056/xbgswcbkgipy3eco4gom.png",
+    "imageLogo" : "https://res.cloudinary.com/pietechsolutions/image/upload/v1536141014/noaurdejkofjfywurxpo.png",
+    "totalTables" : "10",
+    "totalVat" : "10"
+  },
+  "sliderurun" : {
+    "1d4aa3b29bca735e4et011" : {
+      "description" : "Üzeri yer fıstığı ve karamel kaplı;kakaolu kek dilimleri arası özel yer fıstığı ve çikolatalı krema dolu leziz bir pasta",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 18
+      } ],
+      "thumb" : "data:image/jpeg;base64,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",
+      "title" : "Çikolatalı Yer Fıstıklı Pasta"
+    },
+    "1d4aa3b29bca735e4et012" : {
+      "description" : "Kuru meyvelerle ve hurma püresi ile tatlandırılmış bademli yulaflı kurabiye.",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 15
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/dopdolu-fit-cookie_tcm95-49850_w1024_n.jpg",
+      "title" : "Dopdolu Fit Cookie"
+    },
+    "1d4aa3b29bca735e4et013" : {
+      "description" : "Üzeri yulaf,pirinç,fındık ve ceviz dekorlu,içerisinde yulaf ezmesi,hurma, keçi boynuzu pekmezi,kakao,ceviz,badem ve fındık bulunan fit mozaik pasta ile hafif bir tatlı kaçamağına hazır mısınız?",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 17
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/m_pasta_tcm95-56050_w1024_n.jpg",
+      "title" : "Fit Mozaik Pasta"
+    },
+    "1d4aa3b29bca735e4et50" : {
+      "description" : "Tahıllı haşhaşlı açma içerisinde labne, kaşar, tulum ve emmental peynirli,dana jambon ve füme et.Bu leziz sandviç gününüzü güzelleştirecek!",
+      "price" : [ {
+        "pname" : "Küçük",
+        "value" : 15
+      }, {
+        "pname" : "Büyük",
+        "value" : 20
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/fume_etli_jambonlu_tcm95-57365_w1024_n.jpg",
+      "title" : "Füme Etli Jambonlu Açma Sandviç"
+    },
+    "1d4aa3b29bca735e4et90" : {
+      "description" : "Salatasında yüksek protein arayanlara!Bol ızgara tavuklu,toz parmesan ve kırmızı biberli taze mevsim yeşillikleri...",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 25
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/izgara-tavuk-salata-new_tcm95-49795_w1024_n.jpg",
+      "title" : "Izgara Tavuklu Salata"
+    },
+    "1d4aa3b29bca735e4et91" : {
+      "description" : "Tahılllı ekmekte,füme hindi,kaşar peyniri,cheddar ve dana jambonunun uyumlu birlikteliği",
+      "price" : [ {
+        "pname" : "Standart",
+        "value" : 25
+      } ],
+      "thumb" : "https://www.starbucks.com.tr/media/a5ea150b38a2465f8443c650465517cd_tcm95-19155_w1024_n.jpg",
+      "title" : "Füme Hindili Jambonlu Sandviç"
+    }
+  },
+  "starbuckscartolustur" : {
+    
+  
+  },
+  "table-bookings" : {
+
+  },
+  "tags" : {
+  
+  },
+  "users" : {
+    "14dJsp50j3gOP5GHMhqmZvrn8e12" : {
+      "address" : {
+        "-MJXKKq3R80gSrr24gNT" : {
+          "address" : "esra",
+          "city" : "is",
+          "mobileNo" : "05513",
+          "name" : "esra"
+        }
+      }
+    },
+    "NFhNahq4yvdNqqPGZuQpVOKwMGL2" : {
+      "address" : {
+        "-MUa0AzZDyM5h_GSts-k" : {
+          "address" : "adsfd",
+          "city" : "aa",
+          "mobileNo" : "512",
+          "name" : "a"
+        }
+      },
+      "email" : "i@gmail.com",
+      "favourite" : {
+        "çay1" : {
+          "description" : "Zengin maltımsı alt notalara sahip günün her saatinde keyifle deneyimleyebileceğiniz koyu siyah çay.",
+          "thumb" : "https://www.starbucks.com.tr/media/english_breakfast_tcm95-9942_w1024_n.jpg",
+          "title" : "Teavana English Breakfast"
+        }
+      },
+      "image" : "",
+      "mobileNo" : "12345678",
+      "name" : "esra"
+    }
+  },
+  "yiyecekler" : {
+    "y1" : {
+      "title" : "Kahvaltılıklar"
+    },
+    "y2" : {
+      "title" : "Tatlılar"
+    },
+    "y3" : {
+      "title" : "Sandviçler"
+    },
+    "y4" : {
+      "title" : "Muffinler"
+    },
+    "y5" : {
+      "title" : "Kekler"
+    },
+    "y6" : {
+      "title" : "Kurabiyeler"
+    },
+    "y7" : {
+      "title" : "Salatalar"
+    }
+  }
+}
