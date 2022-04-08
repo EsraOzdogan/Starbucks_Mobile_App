@@ -1,5 +1,5 @@
 # Starbucks_Mobile_App
-Ionic Framework & Angular.js & Firebase
+Ionic Framework & Firebase
 
 
 npm install
